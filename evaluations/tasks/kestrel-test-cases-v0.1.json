@@ -1,0 +1,522 @@
+[
+  {
+    "id": "KESTREL-01",
+    "title": "Leadership roles",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S1 Leadership",
+    "prompt": "Name Kestrel's CEO and CFO and identify each person's role.",
+    "elements": [
+      "CEO name and role",
+      "CFO name and role"
+    ],
+    "reference": "Dana Whitfield is Chief Executive Officer. Marcus Oyelaran is Chief Financial Officer.",
+    "error_checks": "Do not swap roles or invent additional executives.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-02",
+    "title": "Company background",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S1 opening paragraph",
+    "prompt": "Identify Kestrel's headquarters, founding year, and the business problem its products address.",
+    "elements": [
+      "Headquarters",
+      "Founding year",
+      "Product purpose"
+    ],
+    "reference": "Omaha, Nebraska; founded in 2017; software and data products help shipping and logistics companies plan freight routes more efficiently.",
+    "error_checks": "Do not describe Kestrel as a freight carrier or claim it owns a trucking fleet.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-03",
+    "title": "Annual financial results",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S1 Financial results",
+    "prompt": "State fiscal 2025 revenue, fiscal 2024 revenue, and fiscal 2025 net income. Include units and periods.",
+    "elements": [
+      "2025 revenue",
+      "2024 revenue",
+      "2025 net income"
+    ],
+    "reference": "$412.6 million revenue in FY2025; $349.7 million revenue in FY2024; $38.9 million net income in FY2025.",
+    "error_checks": "Revenue and net income are different measures; amounts are in millions.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-04",
+    "title": "Revenue segment mix",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S1 Revenue by segment",
+    "prompt": "Name both revenue segments and give each segment's share of total revenue in 2025.",
+    "elements": [
+      "Route Optimization Software name and share",
+      "Data Services name and share"
+    ],
+    "reference": "Route Optimization Software contributed 62 percent; Data Services contributed 38 percent in 2025.",
+    "error_checks": "Do not reverse segment shares or apply them to 2026 as disclosed facts.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-05",
+    "title": "First quarter results",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S2 First quarter 2026 results",
+    "prompt": "Report Q1 2026 revenue, net income, and diluted EPS, with units.",
+    "elements": [
+      "Revenue",
+      "Net income",
+      "Diluted EPS"
+    ],
+    "reference": "Revenue $108.3 million; net income $9.2 million; diluted EPS $0.31 for Q1 2026.",
+    "error_checks": "EPS is dollars per share, not millions of dollars.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-06",
+    "title": "Second quarter results",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S3 Second quarter 2026 results and Margins",
+    "prompt": "Report Q2 2026 revenue, net income, diluted EPS, and gross margin.",
+    "elements": [
+      "Revenue",
+      "Net income",
+      "Diluted EPS",
+      "Gross margin"
+    ],
+    "reference": "Revenue $116.0 million; net income $11.4 million; diluted EPS $0.38; gross margin 72.1 percent in Q2 2026.",
+    "error_checks": "Do not substitute Q1 figures or call gross margin net margin.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-07",
+    "title": "LaneSight launch",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S2 Product news",
+    "prompt": "Name the product launched in February 2026, describe what it predicts, and state the maximum prediction horizon.",
+    "elements": [
+      "Product name",
+      "Predicted condition",
+      "Prediction horizon"
+    ],
+    "reference": "LaneSight; freight lane congestion; up to 14 days in advance.",
+    "error_checks": "The source does not give product revenue, accuracy, or adoption statistics.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-08",
+    "title": "Acquisition terms",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S3 Acquisition",
+    "prompt": "Identify the acquired business, completion date, purchase price and payment form, and the acquired company's business.",
+    "elements": [
+      "Target name",
+      "Completion date",
+      "Price and payment form",
+      "Business description"
+    ],
+    "reference": "Bramblecote Telematics; June 12, 2026; $64 million in cash; provider of in-truck sensor data.",
+    "error_checks": "The deal was completed, rather than merely announced. Cash payment does not establish the financing source.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-09",
+    "title": "Capital return policy",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S1 Capital return",
+    "prompt": "State Kestrel's dividend policy and the buyback authorization's maximum amount and authorization month. State whether the sources disclose how much was actually repurchased.",
+    "elements": [
+      "Dividend policy",
+      "Authorization amount",
+      "Authorization month",
+      "Actual repurchase disclosure status"
+    ],
+    "reference": "Kestrel does not pay a dividend. The board authorized up to $25 million of buybacks in November 2025. Actual repurchases are not disclosed in S1 through S4.",
+    "error_checks": "Authorization is not evidence that $25 million was spent.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-10",
+    "title": "Borrowing terms",
+    "type": "Factual",
+    "difficulty": "Basic",
+    "sources": "S4 Debt and liquidity",
+    "prompt": "Give the revolving facility size, amount drawn and measurement date, and contractual interest-rate formula.",
+    "elements": [
+      "Facility size",
+      "Drawn amount and date",
+      "Interest formula"
+    ],
+    "reference": "$150 million facility; $40 million drawn as of June 30, 2026; interest at SOFR plus 1.75 percent.",
+    "error_checks": "The 1.75 percent spread is not the total borrowing rate. No SOFR fixing is supplied.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-11",
+    "title": "First half totals",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S2 and S3 quarterly results",
+    "prompt": "Calculate first-half 2026 revenue and net income by summing Q1 and Q2. Show both calculations.",
+    "elements": [
+      "Revenue calculation and total",
+      "Net income calculation and total"
+    ],
+    "reference": "Revenue = $108.3m + $116.0m = $224.3m. Net income = $9.2m + $11.4m = $20.6m.",
+    "error_checks": "Do not label first-half totals full-year results or sum quarterly EPS as a required output.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-12",
+    "title": "Sequential revenue growth",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S2 and S3 quarterly results",
+    "prompt": "Calculate the dollar and percentage increase in revenue from Q1 to Q2 2026. Show the base used for the percentage.",
+    "elements": [
+      "Dollar increase",
+      "Percentage calculation with Q1 base"
+    ],
+    "reference": "$116.0m - $108.3m = $7.7m. $7.7m / $108.3m x 100 = approximately 7.11 percent quarter over quarter.",
+    "error_checks": "Do not use Q2 as the denominator or label the change year over year.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-13",
+    "title": "Gross margin movement",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S2 Margins and S3 Margins",
+    "prompt": "Calculate the gross margin improvement from Q1 to Q2 2026 in percentage points and basis points. Show the subtraction.",
+    "elements": [
+      "Percentage-point calculation",
+      "Basis-point conversion"
+    ],
+    "reference": "72.1 percent - 71.4 percent = 0.7 percentage points = 70 basis points.",
+    "error_checks": "A 0.7 percentage-point increase is not a 0.7 percent relative increase.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-14",
+    "title": "Enterprise customer growth",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S1 Customers and employees; S3 Customers",
+    "prompt": "Calculate the increase in enterprise customers from the end of 2025 to the end of Q2 2026 in customers and percent. Identify the comparison period.",
+    "elements": [
+      "Customer increase",
+      "Percent calculation",
+      "Comparison period"
+    ],
+    "reference": "3,120 - 2,850 = 270 customers. 270 / 2,850 x 100 = approximately 9.47 percent between end-2025 and end-Q2 2026.",
+    "error_checks": "This is not year-over-year customer growth or evidence of improved retention.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-15",
+    "title": "Estimated segment revenue",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S1 Financial results and Revenue by segment",
+    "prompt": "Estimate 2025 revenue for each segment using the reported revenue and segment shares. Show your calculations and identify the estimates as derived.",
+    "elements": [
+      "Software estimate and calculation",
+      "Data Services estimate and calculation",
+      "Derived estimate qualification"
+    ],
+    "reference": "Route Optimization Software: $412.6m x 62 percent = $255.812m, about $255.8m. Data Services: $412.6m x 38 percent = $156.788m, about $156.8m. These are estimates using displayed shares, not separately reported segment dollar values.",
+    "error_checks": "Do not imply more precision than the rounded source shares justify.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-16",
+    "title": "Reported versus calculated growth",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S1 Financial results",
+    "prompt": "State the reported FY2025 revenue growth rate, calculate growth from the displayed FY2024 and FY2025 revenues, and explain whether the results are consistent after rounding.",
+    "elements": [
+      "Reported rate",
+      "Calculated growth",
+      "Rounding explanation"
+    ],
+    "reference": "Reported growth is 18 percent. ($412.6m - $349.7m) / $349.7m x 100 = about 17.99 percent. This is consistent with 18 percent after rounding.",
+    "error_checks": "Do not call rounded presentation a source contradiction.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-17",
+    "title": "Quarterly outlook comparison",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S2 Outlook; S3 Second quarter 2026 results",
+    "prompt": "State the Q2 revenue outlook issued in the Q1 release, compare actual Q2 revenue with its upper bound, and calculate the dollar and percentage beat against that upper bound.",
+    "elements": [
+      "Prior outlook range",
+      "Actual and direction versus upper bound",
+      "Dollar beat",
+      "Percentage beat calculation"
+    ],
+    "reference": "Prior outlook $112m to $115m; actual $116.0m. Beat = $1.0m, or $1.0m / $115m x 100 = about 0.87 percent above the upper bound.",
+    "error_checks": "Use $115m, rather than the midpoint or lower bound, for the requested comparison.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-18",
+    "title": "Revenue needed in the second half",
+    "type": "Calculation",
+    "difficulty": "Advanced",
+    "sources": "S2 and S3 quarterly results; S3 Outlook and guidance",
+    "prompt": "Calculate the H2 2026 revenue range needed to reach the full-year revenue guidance range, using reported H1 revenue. State whether your result is company-issued H2 guidance.",
+    "elements": [
+      "H1 input",
+      "Lower-bound calculation",
+      "Upper-bound calculation",
+      "Status of derived range"
+    ],
+    "reference": "H1 revenue = $224.3m. $470m - $224.3m = $245.7m; $480m - $224.3m = $255.7m. Required H2 revenue is $245.7m to $255.7m. It is a derived requirement, not separately issued H2 guidance.",
+    "error_checks": "Do not treat revenue guidance as realized revenue or use FY2025 revenue as the H1 input.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-19",
+    "title": "Revolver capacity and limits",
+    "type": "Calculation",
+    "difficulty": "Intermediate",
+    "sources": "S4 Debt and liquidity; S1 through S4 for disclosure limits",
+    "prompt": "Calculate nominal undrawn revolver capacity at June 30, 2026. Can it establish Kestrel's cash balance or unrestricted borrowing availability? Explain each limit.",
+    "elements": [
+      "Undrawn-capacity calculation",
+      "Cash-balance limitation",
+      "Borrowing-availability limitation"
+    ],
+    "reference": "$150m - $40m = $110m nominal undrawn capacity. Cash is not disclosed. Covenants, conditions, and restrictions are not disclosed, so nominal headroom does not establish unrestricted availability.",
+    "error_checks": "Do not label $110m cash on hand or assume all capacity is immediately drawable.",
+    "dimensions": "A B C D"
+  },
+  {
+    "id": "KESTREL-20",
+    "title": "Information that is not disclosed",
+    "type": "Source limits",
+    "difficulty": "Intermediate",
+    "sources": "S1 through S4",
+    "prompt": "Using only the supplied sources, state Kestrel's share price, name its cloud provider, and give the exact SOFR rate applicable to June 30, 2026 borrowings. For each item, say if it can be determined.",
+    "elements": [
+      "Share-price disclosure status",
+      "Cloud-provider disclosure status",
+      "SOFR disclosure status"
+    ],
+    "reference": "None of these three items can be determined. The documents disclose no share price or cloud-vendor name and no exact applicable SOFR rate. S4 gives only the borrowing spread of SOFR plus 1.75 percent.",
+    "error_checks": "Do not guess a vendor, substitute 1.75 percent for SOFR, or use external market data.",
+    "dimensions": "A B C"
+  },
+  {
+    "id": "KESTREL-21",
+    "title": "Acquisition integration priorities",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S3 Acquisition; S4 Integration risk",
+    "prompt": "Recommend two distinct integration workstreams for Bramblecote. For each, give the source-based rationale, one tradeoff, and a practical next step. Identify one missing fact needed before committing resources.",
+    "elements": [
+      "Workstream 1",
+      "Rationale 1",
+      "Tradeoff 1",
+      "Next step 1",
+      "Workstream 2",
+      "Rationale 2",
+      "Tradeoff 2",
+      "Next step 2",
+      "Missing decision-critical fact"
+    ],
+    "reference": "Accept supported proposals such as data/product interoperability and customer-service continuity. Link them to the sensor-data acquisition and disclosed integration risk. Examples include interface mapping and a staged integration review; tradeoffs include speed versus disruption and implementation cost. Integration costs, synergies, and system compatibility are not disclosed.",
+    "error_checks": "Do not claim integrations or cost savings already occurred. Different justified workstreams may earn full credit.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-22",
+    "title": "Cloud resilience decision",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S4 Cloud dependency",
+    "prompt": "Recommend an initial approach to Kestrel's cloud concentration risk. Compare two mitigation options, identify one tradeoff between them, propose one next step, and name one missing fact that could change the choice.",
+    "elements": [
+      "Initial recommendation",
+      "Two mitigation options",
+      "Comparative tradeoff",
+      "Next step",
+      "Decision-changing information"
+    ],
+    "reference": "A defensible approach begins with recovery testing and compares stronger recovery within the current provider with a second-provider option. Weigh operational complexity and cost against outage exposure; propose a recovery exercise or feasibility assessment. Recovery objectives, architecture, costs, and contractual terms are unknown.",
+    "error_checks": "Do not name a provider or assert that immediate migration is the only correct response.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-23",
+    "title": "Customer concentration response",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S1 FY2025 revenue; S4 Customer concentration",
+    "prompt": "Estimate the 2025 revenue attributable to the largest customer. Recommend a mitigation, explain one tradeoff and one next step, and state one limit on interpreting the estimate as a future-loss forecast.",
+    "elements": [
+      "Revenue estimate and calculation",
+      "Mitigation",
+      "Tradeoff",
+      "Next step",
+      "Forecast limitation"
+    ],
+    "reference": "$412.6m x 9 percent = approximately $37.1m in 2025. Accept a justified retention or diversification proposal. Weigh retention investment against concentration, or diversification cost against resilience; propose a contract review or pipeline assessment. Historical revenue share does not establish future lost revenue, profit loss, contract termination, or replacement business.",
+    "error_checks": "The largest customer is not named, and no loss event is reported.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-24",
+    "title": "Capital allocation choice",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S1 Capital return; S3 Acquisition; S4 Debt and liquidity",
+    "prompt": "Recommend whether management should execute additional buybacks immediately or first review liquidity. Address the authorization, acquisition payment, and revolver balance; give one tradeoff, one next step, and two missing inputs.",
+    "elements": [
+      "Recommendation",
+      "Buyback authorization context",
+      "Acquisition payment context",
+      "Revolver context",
+      "Tradeoff",
+      "Next step",
+      "Missing input 1",
+      "Missing input 2"
+    ],
+    "reference": "A conditional liquidity review is defensible: up to $25m was authorized, the acquisition cost $64m in cash, and $40m was drawn on a $150m facility at June 30. Weigh capital returns against financial flexibility. Request a cash-flow and covenant review; cash balance, cash flow, actual repurchases, and covenant terms are missing. A different conditional recommendation can earn full credit.",
+    "error_checks": "Do not equate authorization with spending, attribute acquisition funding to the revolver, or assert distress from these facts alone.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-25",
+    "title": "Full-year growth execution",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S2 quarterly results; S3 quarterly results and Outlook and guidance",
+    "prompt": "Calculate the H2 average quarterly revenue needed to reach the midpoint of FY2026 guidance. Compare it with Q2 revenue, assess what this implies for execution without predicting success, and propose a monitoring action and one data request.",
+    "elements": [
+      "Midpoint and H1 basis",
+      "Required H2 average calculation",
+      "Q2 comparison",
+      "Qualified execution assessment",
+      "Monitoring action",
+      "Data request"
+    ],
+    "reference": "Guidance midpoint $475m; H1 $224.3m; H2 required $250.7m; average $125.35m per quarter. This is $9.35m, about 8.06 percent, above Q2 revenue of $116m. It implies a higher average run rate, not guaranteed acceleration or failure. Monitor bookings/conversion and request seasonality or backlog data.",
+    "error_checks": "Do not require each H2 quarter to equal the average or assume an acquisition contribution is disclosed.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-26",
+    "title": "Profitability interpretation",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S2 and S3 quarterly results and margins",
+    "prompt": "Calculate net margin for Q1 and Q2 2026 and assess the direction of profitability. Distinguish what the figures show from what they cannot explain. Recommend one follow-up analysis, with its tradeoff and first step.",
+    "elements": [
+      "Q1 net-margin calculation",
+      "Q2 net-margin calculation",
+      "Direction",
+      "Causal limitation",
+      "Follow-up recommendation",
+      "Tradeoff",
+      "First step"
+    ],
+    "reference": "Q1: $9.2m / $108.3m = about 8.49 percent. Q2: $11.4m / $116m = about 9.83 percent; improvement about 1.33 percentage points using unrounded ratios. Gross margin also rose, but cost drivers, taxes, and one-time items are not disclosed. Propose a margin bridge; weigh analytical effort against decision value and begin by requesting expense detail.",
+    "error_checks": "Do not equate net margin with gross margin or attribute improvement to LaneSight or the acquisition without evidence.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-27",
+    "title": "LaneSight commercial assessment",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S1 business description; S2 Product news",
+    "prompt": "Propose a way to evaluate LaneSight's commercial promise. Connect it to Kestrel's business, propose two success measures, identify one tradeoff, specify a first step, and name one missing input.",
+    "elements": [
+      "Business connection",
+      "Success measure 1",
+      "Success measure 2",
+      "Tradeoff",
+      "First step",
+      "Missing input"
+    ],
+    "reference": "Congestion prediction up to 14 days ahead may support route-planning customers. Accept proposed measures such as forecast usefulness and customer adoption or retention, clearly labeled as proposed measures. Weigh pilot effort against evidence quality; start with a limited customer pilot. Pricing, adoption, prediction accuracy, and incremental revenue are not disclosed.",
+    "error_checks": "Do not state proposed targets or performance measures as existing company results.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-28",
+    "title": "Fuel volatility exposure",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S4 Industry conditions; S1 business description",
+    "prompt": "Explain one plausible pathway from fuel price volatility to Kestrel's revenue risk, recommend a response, give one tradeoff and one next step, and identify one missing fact that limits confidence.",
+    "elements": [
+      "Risk pathway",
+      "Recommendation",
+      "Tradeoff",
+      "Next step",
+      "Confidence-limiting information"
+    ],
+    "reference": "S4 says customer budgets are sensitive to fuel price volatility. Budget pressure could affect software purchasing or renewals; this is an inference, not a reported revenue loss. Accept a proposed customer-sensitivity review or retention response, weighing cost against resilience. Begin with segment interviews or renewal analysis; contract terms and demand sensitivity are unknown.",
+    "error_checks": "Do not assume Kestrel buys fuel directly or that a particular price move has occurred.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-29",
+    "title": "Key personnel risk response",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S1 Leadership; S4 Key personnel",
+    "prompt": "Recommend two distinct responses to key personnel risk. Explain the rationale for each, compare one tradeoff between them, identify a first step, and state one missing fact needed to choose the mix.",
+    "elements": [
+      "Response 1",
+      "Rationale 1",
+      "Response 2",
+      "Rationale 2",
+      "Comparative tradeoff",
+      "First step",
+      "Missing decision input"
+    ],
+    "reference": "Kestrel depends on Dana Whitfield and other senior leaders and lacks key-person life insurance. Succession planning and an insurance assessment are defensible proposals. Planning addresses continuity; insurance may offset some financial impact but does not replace leadership. Weigh premiums against capability-building effort; begin with a dependency review. Succession depth, insurability, and costs are not disclosed.",
+    "error_checks": "Do not assert that absence of insurance means no succession plan exists or insurance removes operational risk.",
+    "dimensions": "A B C D E"
+  },
+  {
+    "id": "KESTREL-30",
+    "title": "Management briefing with priorities",
+    "type": "Business analysis",
+    "difficulty": "Advanced",
+    "sources": "S1 through S4",
+    "prompt": "Write a brief management assessment with one growth signal, one profitability signal, and one financial constraint or uncertainty. Recommend two priorities; for each give a rationale, tradeoff, and next step. Separate disclosed facts, derived values, and judgments.",
+    "elements": [
+      "Growth signal",
+      "Profitability signal",
+      "Financial constraint or uncertainty",
+      "Priority 1",
+      "Rationale 1",
+      "Tradeoff 1",
+      "Next step 1",
+      "Priority 2",
+      "Rationale 2",
+      "Tradeoff 2",
+      "Next step 2",
+      "Fact versus inference distinction"
+    ],
+    "reference": "Accept source-based signals such as Q2 revenue growth reported at 19 percent and gross margin of 72.1 percent. A financing uncertainty is the undisclosed cash balance despite $40m drawn. Integration, cloud resilience, concentration, or growth execution may be justified priorities. Full credit depends on specific practical recommendations and explicit tradeoffs, not selecting a prescribed pair.",
+    "error_checks": "Reject invented cash flow, customer retention, synergies, or certainty about guidance. Do not require investment advice or unsupported external industry claims.",
+    "dimensions": "A B C D E"
+  }
+]

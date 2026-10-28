@@ -1,0 +1,28 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local system files
+.DS_Store
+Thumbs.db
+~$*
+/.work/
+
+# Original and derived datasets
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Evaluation outputs; retain folder structure and guidance
+/evaluations/runs/*
+!/evaluations/runs/.gitkeep
