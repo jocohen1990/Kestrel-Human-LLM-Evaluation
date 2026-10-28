@@ -15,6 +15,8 @@ The user confirmed that the rubric should evaluate both factual answers and busi
 
 Step 2 is complete: `evaluations/tasks/kestrel-test-cases-v0.1.docx` contains 30 pilot cases and administrator scoring keys. Cases 01 to 10 cover factual retrieval, 11 to 20 calculations and source limits, and 21 to 30 business analysis. Each has a prompt, required elements, reference answer, source locations, applicable dimensions, and error checks. A JSON counterpart preserves the same case records for later evaluation tooling. The 16-page Word document was rendered and reviewed, and numeric reference calculations were checked. Respondents should receive prompts and shared instructions only, without scoring keys. This is a pilot set with calibration overlap, not an unseen held-out benchmark.
 
+`evaluations/runs/response-template.md` is the blank reusable collection record. It contains run details, visible settings, the exact shared respondent instructions, source IDs, and all 30 prompts with placeholders for verbatim answers. It contains no answer keys. Copy it into a run folder for each model and attempt; keep ratings separate. Fields that are unavailable can be recorded as not shown. A fresh chat for each case is suggested, but the collection protocol has not yet been confirmed.
+
 ## Decisions still needed
 
 - Specific evaluation questions and design of the human-to-LLM comparison.

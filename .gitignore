@@ -26,3 +26,4 @@ Thumbs.db
 # Evaluation outputs; retain folder structure and guidance
 /evaluations/runs/*
 !/evaluations/runs/.gitkeep
+!/evaluations/runs/response-template.md
