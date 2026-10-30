@@ -17,6 +17,8 @@ Step 2 is complete: `evaluations/tasks/kestrel-test-cases-v0.1.docx` contains 30
 
 `evaluations/runs/response-template.md` is the blank reusable collection record. It contains run details, visible settings, the exact shared respondent instructions, source IDs, and all 30 prompts with placeholders for verbatim answers. It contains no answer keys. Copy it into a run folder for each model and attempt; keep ratings separate. Fields that are unavailable can be recorded as not shown. A fresh chat for each case is suggested, but the collection protocol has not yet been confirmed.
 
+On October 29, 2026, the user reported that Playground rejected a source attachment labeled application/octet-stream. Four `.txt` copies were created in `data/processed/playground/` and verified byte-for-byte against the raw `.md` files. These copies are an upload workaround; successful upload has not yet been verified. Pasting the full source text into a user message is an alternative. Preserve the S1 through S4 source mapping and record the source-delivery method in the run record.
+
 ## Decisions still needed
 
 - Specific evaluation questions and design of the human-to-LLM comparison.
