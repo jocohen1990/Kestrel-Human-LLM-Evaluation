@@ -5,3 +5,5 @@
 - `runs/`: a separate folder for each pilot or evaluation run.
 
 For each run, record the task and rubric versions, execution date, model identifiers and settings, applicable human instructions, input references, outputs, ratings, and any failures or exclusions. The exact file format will follow the study design.
+
+Use runs/response-template.md for verbatim answers and runs/ratings-template.md for separate human ratings. Copy the blank templates into a run folder; keep the masters blank.

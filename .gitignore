@@ -23,7 +23,4 @@ Thumbs.db
 /data/processed/*
 !/data/processed/.gitkeep
 
-# Evaluation outputs; retain folder structure and guidance
-/evaluations/runs/*
-!/evaluations/runs/.gitkeep
-!/evaluations/runs/response-template.md
+# Evaluation responses and ratings are tracked for project review.

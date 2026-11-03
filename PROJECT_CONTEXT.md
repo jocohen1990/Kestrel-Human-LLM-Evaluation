@@ -35,3 +35,7 @@ Review rubric and test-case version 0.1, then define pilot administration settin
 ## Handoff convention
 
 Update this file when requirements, decisions, or status change. Record substantive study decisions in the planning documents and keep run-specific settings with each run.
+
+## November 2, 2026 update
+
+evaluations/runs/ratings-template.md is now the reusable human rating record, with all 30 cases, required-element checklists, task-key applicability for dimensions A through E, weighted-score instructions, flags, deduction notes, and separate adjudication fields. Copy it into the response run folder for each attempt and independent rater; keep the master blank.
