@@ -36,7 +36,7 @@ Kestrel's CEO is Dana Whitfield, who serves as the Chief Executive Officer, resp
 Kestrel's CFO is Marcus Oyelaran, who serves as the Chief Financial Officer, responsible for managing the company's financial actions.
 
 - Task type: Factual
-- Response ID: KESTREL-01
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-01
 - Required elements: Name of CEO, CFO and identify each person's role.
 - CEO name and role: Addressed
 - CFO name and role: Addressed
@@ -68,13 +68,13 @@ Model response (verbatim from gpt-4.1-mini_attempt-01_responses.md):
 Kestrel Freight Analytics is headquartered in Omaha, Nebraska. The company was founded in 2017. Its products address the business problem of helping shipping and logistics companies plan freight routes more efficiently through software and data products.
 
 - Task type: Factual
-- Response ID: KESTREL-02
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-02
 - Required elements: Location of Kestrel's HQ, fouding year and the business problem its products address.
 - Headquarters: Addressed
 - Founding year: Addressed
 - Product purpose: Addressed
 
-| Dimension | Rating | Reasons |
+| Dimension | Rating | Reason |
 | --- | --- |
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
@@ -107,13 +107,13 @@ The fiscal year revenue and net income figures are as follows:
 All amounts are for the respective full fiscal years.
 
 - Task type: Factual
-- Response ID: KESTREL-03
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-03
 - Required elements: Fiscal 2025 revenue, fiscal 2024 revenue, fiscal 2025 net income with all units and periods included.
 - 2025 revenue: Addresssed
 - 2024 revenue: Addresssed
 - 2025 net income: Addresssed
 
-| Dimension | Rating | Reasons |
+| Dimension | Rating | Reason |
 | --- | --- |
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
@@ -121,7 +121,7 @@ All amounts are for the respective full fiscal years.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
+- Weighted score: 85.7
 - Flags: [not reviewed]
 - Supporting source locations: S1 - annual_report_2025.md, Financial results for fiscal year 2025 section
 - Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -143,26 +143,26 @@ The two revenue segments for Kestrel Freight Analytics in 2025 are:
     Data Services segment, which contributed 38% of total revenue.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Route Optimization Software name and share: [addressed / omitted / not reviewed]
-- Data Services name and share: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-04
+- Required elements: The two revenue segments for Kestrel in 2025 and the source document for this information.
+- Route Optimization Software name and share: Addressed
+- Data Services name and share: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 85.7
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md, Revenue by segment section
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-05 First quarter results
 
@@ -181,27 +181,27 @@ The Q1 2026 financial results for Kestrel Freight Analytics are as follows:
 All amounts are in US dollars.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Revenue: [addressed / omitted / not reviewed]
-- Net income: [addressed / omitted / not reviewed]
-- Diluted EPS: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-05
+- Required elements: Financial results from Q1 2026, net income from Q1 2026, and the diluted EPS with all units and source.
+- Revenue: Addressed
+- Net income: Addressed
+- Diluted EPS: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 |  Correct, source-supported answer, but required citation by the shared instructions is missing
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 87.5
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-06 Second quarter results
 
@@ -219,28 +219,28 @@ The reported financial results for Kestrel Freight Analytics in Q2 2026 are as f
     Gross Margin: 72.1%
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Revenue: [addressed / omitted / not reviewed]
-- Net income: [addressed / omitted / not reviewed]
-- Diluted EPS: [addressed / omitted / not reviewed]
-- Gross margin: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-06
+- Required elements: Q2 2026 revenue, net income, diluted EPS and gross margin with source document.
+- Revenue: Addressed
+- Net income: Addressed
+- Diluted EPS: Addressed
+- Gross margin: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4] | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 87.5
+- Flags: none
+- Supporting source locations: S3 - q2_2026_earnings.md, Second quarter 2026 results section
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-07 LaneSight launch
 
@@ -253,27 +253,27 @@ Model response (verbatim from gpt-4.1-mini_attempt-01_responses.md):
 The product launched by Kestrel Freight Analytics in February 2026 is called LaneSight. It predicts freight lane congestion up to 14 days in advance. The maximum prediction horizon of LaneSight is 14 days.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Product name: [addressed / omitted / not reviewed]
-- Predicted condition: [addressed / omitted / not reviewed]
-- Prediction horizon: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-07
+- Required elements: The product launched in February 2026 by Kestrel, describe what it predicts, and stating the maximum prediction horizon.
+- Product name: Addressed
+- Predicted condition: Addressed
+- Prediction horizon: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 85.7
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md, Product news section
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-08 Acquisition terms
 
@@ -289,28 +289,28 @@ The purchase price was $64 million, paid in cash.
 Bramblecote Telematics' business is providing in-truck sensor data.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Target name: [addressed / omitted / not reviewed]
-- Completion date: [addressed / omitted / not reviewed]
-- Price and payment form: [addressed / omitted / not reviewed]
-- Business description: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-08
+- Required elements: Identify the business that Kestrel acquired, completion date of the acquisition, purchase price, payment form and the business done by the acquired business.
+- Target name: Addressed
+- Completion date: Addressed
+- Price and payment form: Addressed
+- Business description: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 87.5
+- Flags: none
+- Supporting source locations: S3 - q2_2026_earnings.md, Acquisition section
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-09 Capital return policy
 
@@ -325,28 +325,28 @@ Buyback Authorization: In November 2025, the board authorized a share buyback pr
 Repurchase Amount Disclosed: The sources do not disclose how much was actually repurchased under the buyback authorization.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Dividend policy: [addressed / omitted / not reviewed]
-- Authorization amount: [addressed / omitted / not reviewed]
-- Authorization month: [addressed / omitted / not reviewed]
-- Actual repurchase disclosure status: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-09
+- Required elements: Kestrel's dividend policy, buyback authorization's maximum amount, authorization month, and the statement whether the sources disclose how much was actually repurchased.
+- Dividend policy: Addressed
+- Authorization amount: Addressed
+- Authorization month: Addressed
+- Actual repurchase disclosure status: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 87.5
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md, Capital return section.
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-10 Borrowing terms
 
@@ -364,27 +364,27 @@ The revolving facility details for Kestrel Freight Analytics are as follows:
     Contractual interest-rate formula: SOFR plus 1.75%.
 
 - Task type: Factual
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Facility size: [addressed / omitted / not reviewed]
-- Drawn amount and date: [addressed / omitted / not reviewed]
-- Interest formula: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-10
+- Required elements: The revolving facility size, amount drawn, measurement date, and contractual interest-rate formula.
+- Facility size: Addressed
+- Drawn amount and date: Addressed
+- Interest formula: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 87.5
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md, Debt and liquidity
+- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-11 First half totals
 
