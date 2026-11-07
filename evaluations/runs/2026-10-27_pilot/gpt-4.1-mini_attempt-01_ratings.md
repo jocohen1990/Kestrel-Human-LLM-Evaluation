@@ -85,7 +85,7 @@ Kestrel Freight Analytics is headquartered in Omaha, Nebraska. The company was f
 - Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md, Summary section
-- Deduction notes: [brief reasons, or none after review]
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -124,7 +124,7 @@ All amounts are for the respective full fiscal years.
 - Weighted score: 85.7
 - Flags: [not reviewed]
 - Supporting source locations: S1 - annual_report_2025.md, Financial results for fiscal year 2025 section
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -159,7 +159,7 @@ The two revenue segments for Kestrel Freight Analytics in 2025 are:
 - Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md, Revenue by segment section
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -191,14 +191,14 @@ All amounts are in US dollars.
 | --- | --- |
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 |  Correct, source-supported answer, but required citation by the shared instructions is missing
+| C Evidence and uncertainty | 2 |  Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
 - Weighted score: 87.5
 - Flags: none
 - Supporting source locations: S2 - q1_2026_earnings.md
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -237,7 +237,7 @@ The reported financial results for Kestrel Freight Analytics in Q2 2026 are as f
 - Weighted score: 87.5
 - Flags: none
 - Supporting source locations: S3 - q2_2026_earnings.md, Second quarter 2026 results section
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -270,7 +270,7 @@ The product launched by Kestrel Freight Analytics in February 2026 is called Lan
 - Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S2 - q1_2026_earnings.md, Product news section
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -307,7 +307,7 @@ Bramblecote Telematics' business is providing in-truck sensor data.
 - Weighted score: 87.5
 - Flags: none
 - Supporting source locations: S3 - q2_2026_earnings.md, Acquisition section
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -336,14 +336,14 @@ Repurchase Amount Disclosed: The sources do not disclose how much was actually r
 | --- | --- |
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
 - Weighted score: 87.5
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md, Capital return section.
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -374,14 +374,14 @@ The revolving facility details for Kestrel Freight Analytics are as follows:
 | --- | --- |
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
 - Weighted score: 87.5
 - Flags: none
 - Supporting source locations: S4 - risk_factors_2026.md, Debt and liquidity
-- Deduction notes: Correct, source-supported answer, but required citation by the shared instructions is missing
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -416,26 +416,26 @@ Summary:
     First-half 2026 net income = $20.6 million
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Revenue calculation and total: [addressed / omitted / not reviewed]
-- Net income calculation and total: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-11
+- Required elements: Correct calculation Q1 and Q2 revenue, then the net income from Q1 and Q2, all added together.
+- Revenue calculation and total: Addressed
+- Net income calculation and total: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results) and S3 - q2_2026_earnings.md (Second quarter 2026 results)
+- Deduction notes: C = 2: Correct calculation but LLM did not source as requested.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-12 Sequential revenue growth
 
@@ -466,26 +466,26 @@ Summary:
     Percentage increase based on Q1 2026 revenue: approximately 7.11%
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Dollar increase: [addressed / omitted / not reviewed]
-- Percentage calculation with Q1 base: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-12
+- Required elements: Dollar and percentage increase in revenue from Q1 to Q2 2026.
+- Dollar increase: Addressed
+- Percentage calculation with Q1 base: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results) S3 - and q2_2026_earnings.md (Second quarter 2026 results)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: Addressed
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-13 Gross margin movement
 
@@ -511,26 +511,26 @@ Answer:
     Gross margin improvement = 70 basis points
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Percentage-point calculation: [addressed / omitted / not reviewed]
-- Basis-point conversion: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-13
+- Required elements: The calculated gross margin improvement from Q1 to Q2 in 2026 in percentage points and basis points. All work should be shown in response.
+- Percentage-point calculation: Addressed
+- Basis-point conversion: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results) S3 - and q2_2026_earnings.md (Second quarter 2026 results)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-14 Enterprise customer growth
 
@@ -560,27 +560,27 @@ Summary:
     Comparison period: from December 31, 2025, to June 30, 2026 (end of Q2 2026).
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Customer increase: [addressed / omitted / not reviewed]
-- Percent calculation: [addressed / omitted / not reviewed]
-- Comparison period: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-14
+- Required elements: Calculated the increase in enterprise customers from the end of 2025 to the end of 2026 in customers and percentage. Also note the comparison period.
+- Customer increase: Addressed
+- Percent calculation: Addressed
+- Comparison period: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Customers and employees) S3 - and q2_2026_earnings.md (Customers)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-15 Estimated segment revenue
 
@@ -618,27 +618,27 @@ Summary:
     Estimated Data Services revenue 2025: $156.5 million (derived)
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-15
 - Required elements:
-- Software estimate and calculation: [addressed / omitted / not reviewed]
-- Data Services estimate and calculation: [addressed / omitted / not reviewed]
-- Derived estimate qualification: [addressed / omitted / not reviewed]
+- Software estimate and calculation: Addressed
+- Data Services estimate and calculation: Addressed
+- Derived estimate qualification: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025 and Revenue by segment)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-16 Reported versus calculated growth
 
@@ -666,27 +666,27 @@ Rounded, this is approximately 18%.
 Therefore, the reported 18% revenue growth rate is consistent with the growth calculated from the FY2024 and FY2025 revenue figures after rounding.
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Reported rate: [addressed / omitted / not reviewed]
-- Calculated growth: [addressed / omitted / not reviewed]
-- Rounding explanation: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-16
+- Required elements: The reported FY2025 revenue growth rate is noted, then calculate this growth rate using the figures from the annual report 2025, then explain the results are consistent after rounding.
+- Reported rate: Addressed
+- Calculated growth: Addressed
+- Rounding explanation: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-17 Quarterly outlook comparison
 
@@ -713,28 +713,28 @@ Summary:
     Percentage beat versus upper bound: approximately 0.87%
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Prior outlook range: [addressed / omitted / not reviewed]
-- Actual and direction versus upper bound: [addressed / omitted / not reviewed]
-- Dollar beat: [addressed / omitted / not reviewed]
-- Percentage beat calculation: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-17
+- Required elements: State the Q2 revenue outlook that was shown in the Q1 release, compare this number to the Q2 revenue with the upper bound, then calculate the dollar and percentage beat against the upper bound.
+- Prior outlook range: Addressed
+- Actual and direction versus upper bound: Addressed
+- Dollar beat: Addressed
+- Percentage beat calculation: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Outlook)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-18 Revenue needed in the second half
 
@@ -764,28 +764,28 @@ Therefore, Kestrel Freight Analytics needs H2 2026 revenue in the range of appro
 This calculation is based on the company-issued full-year 2026 revenue guidance and reported H1 2026 revenue; however, no explicit H2 guidance range was provided by the company. The above H2 target is derived, not company-issued H2 guidance.
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- H1 input: [addressed / omitted / not reviewed]
-- Lower-bound calculation: [addressed / omitted / not reviewed]
-- Upper-bound calculation: [addressed / omitted / not reviewed]
-- Status of derived range: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-18
+- Required elements: Calculating the H2 2026 revenue range needed to reach the full-year revenue guidance range then stating whether the result is company-issued H2 guidance.
+- H1 input: Addressed
+- Lower-bound calculation: Addressed
+- Upper-bound calculation: Addressed
+- Status of derived range: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results) and S2 - q2_2026_results.md (Second quarter 2026 results)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-19 Revolver capacity and limits
 
@@ -817,27 +817,27 @@ In summary:
     The actual cash balance is not provided and cannot be established solely from revolver information.
 
 - Task type: Calculation
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
-- Undrawn-capacity calculation: [addressed / omitted / not reviewed]
-- Cash-balance limitation: [addressed / omitted / not reviewed]
-- Borrowing-availability limitation: [addressed / omitted / not reviewed]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-19
+- Required elements: Calculating the nominal undrawn revolver capacity as of June 30, 2026, then decide whether this information establishes Kestrel's cash balance or unrestricted borrowing availability. Explain each limit as such.
+- Undrawn-capacity calculation: Addressed
+- Cash-balance limitation: Addressed
+- Borrowing-availability limitation: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | All requested information is provided.
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 88.2
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Debt and liquidity)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-20 Information that is not disclosed
 
@@ -864,9 +864,9 @@ Summary:
 - Task type: Source limits
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Share-price disclosure status: [addressed / omitted / not reviewed]
-- Cloud-provider disclosure status: [addressed / omitted / not reviewed]
-- SOFR disclosure status: [addressed / omitted / not reviewed]
+- Share-price disclosure status: Addressed
+- Cloud-provider disclosure status: Addressed
+- SOFR disclosure status: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -909,15 +909,15 @@ Missing fact needed before committing resources: An important missing fact is th
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Workstream 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Tradeoff 1: [addressed / omitted / not reviewed]
-- Next step 1: [addressed / omitted / not reviewed]
-- Workstream 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Tradeoff 2: [addressed / omitted / not reviewed]
-- Next step 2: [addressed / omitted / not reviewed]
-- Missing decision-critical fact: [addressed / omitted / not reviewed]
+- Workstream 1: Addressed
+- Rationale 1: Addressed
+- Tradeoff 1: Addressed
+- Next step 1: Addressed
+- Workstream 2: Addressed
+- Rationale 2: Addressed
+- Tradeoff 2: Addressed
+- Next step 2: Addressed
+- Missing decision-critical fact: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -972,11 +972,11 @@ Information on the current cloud provider's historical outage frequency, SLA ter
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Initial recommendation: [addressed / omitted / not reviewed]
-- Two mitigation options: [addressed / omitted / not reviewed]
-- Comparative tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Decision-changing information: [addressed / omitted / not reviewed]
+- Initial recommendation: Addressed
+- Two mitigation options: Addressed
+- Comparative tradeoff: Addressed
+- Next step: Addressed
+- Decision-changing information: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1027,11 +1027,11 @@ Limit on Interpreting the Estimate as a Future-Loss Forecast:
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Revenue estimate and calculation: [addressed / omitted / not reviewed]
-- Mitigation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Forecast limitation: [addressed / omitted / not reviewed]
+- Revenue estimate and calculation: Addressed
+- Mitigation: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Forecast limitation: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1093,14 +1093,14 @@ Given the recent large cash acquisition and $40 million revolver draw, managemen
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Recommendation: [addressed / omitted / not reviewed]
-- Buyback authorization context: [addressed / omitted / not reviewed]
-- Acquisition payment context: [addressed / omitted / not reviewed]
-- Revolver context: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Missing input 1: [addressed / omitted / not reviewed]
-- Missing input 2: [addressed / omitted / not reviewed]
+- Recommendation: Addressed
+- Buyback authorization context: Addressed
+- Acquisition payment context: Addressed
+- Revolver context: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Missing input 1: Addressed
+- Missing input 2: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1167,12 +1167,12 @@ Data request:
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Midpoint and H1 basis: [addressed / omitted / not reviewed]
-- Required H2 average calculation: [addressed / omitted / not reviewed]
-- Q2 comparison: [addressed / omitted / not reviewed]
-- Qualified execution assessment: [addressed / omitted / not reviewed]
-- Monitoring action: [addressed / omitted / not reviewed]
-- Data request: [addressed / omitted / not reviewed]
+- Midpoint and H1 basis: Addressed
+- Required H2 average calculation: Addressed
+- Q2 comparison: Addressed
+- Qualified execution assessment: Addressed
+- Monitoring action: Addressed
+- Data request: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1246,13 +1246,13 @@ In summary, Kestrel Freight Analytics' net margin improved from Q1 to Q2 2026, s
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Q1 net-margin calculation: [addressed / omitted / not reviewed]
-- Q2 net-margin calculation: [addressed / omitted / not reviewed]
-- Direction: [addressed / omitted / not reviewed]
-- Causal limitation: [addressed / omitted / not reviewed]
-- Follow-up recommendation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
+- Q1 net-margin calculation: Addressed
+- Q2 net-margin calculation: Addressed
+- Direction: Addressed
+- Causal limitation: Addressed
+- Follow-up recommendation: Addressed
+- Tradeoff: Addressed
+- First step: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1302,12 +1302,12 @@ This evaluation method aligns LaneSight’s commercial promise with Kestrel’s 
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Business connection: [addressed / omitted / not reviewed]
-- Success measure 1: [addressed / omitted / not reviewed]
-- Success measure 2: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
-- Missing input: [addressed / omitted / not reviewed]
+- Business connection: Addressed
+- Success measure 1: Addressed
+- Success measure 2: Addressed
+- Tradeoff: Addressed
+- First step: Addressed
+- Missing input: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1356,11 +1356,11 @@ The company's disclosures do not specify what portion of revenue is variable or 
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Risk pathway: [addressed / omitted / not reviewed]
-- Recommendation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Confidence-limiting information: [addressed / omitted / not reviewed]
+- Risk pathway: Addressed
+- Recommendation: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Confidence-limiting information: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1408,13 +1408,13 @@ Missing fact needed to choose the right mix:
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Response 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Response 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Comparative tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
-- Missing decision input: [addressed / omitted / not reviewed]
+- Response 1: Addressed
+- Rationale 1: Addressed
+- Response 2: Addressed
+- Rationale 2: Addressed
+- Comparative tradeoff: Addressed
+- First step: Addressed
+- Missing decision input: Addressed
 
 | Dimension | Rating |
 | --- | --- |
@@ -1486,18 +1486,18 @@ This management assessment balances disclosed financial performance, derived met
 - Task type: Business analysis
 - Response ID: [unique ID linking to this case in the response record]
 - Required elements:
-- Growth signal: [addressed / omitted / not reviewed]
-- Profitability signal: [addressed / omitted / not reviewed]
-- Financial constraint or uncertainty: [addressed / omitted / not reviewed]
-- Priority 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Tradeoff 1: [addressed / omitted / not reviewed]
-- Next step 1: [addressed / omitted / not reviewed]
-- Priority 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Tradeoff 2: [addressed / omitted / not reviewed]
-- Next step 2: [addressed / omitted / not reviewed]
-- Fact versus inference distinction: [addressed / omitted / not reviewed]
+- Growth signal: Addressed
+- Profitability signal: Addressed
+- Financial constraint or uncertainty: Addressed
+- Priority 1: Addressed
+- Rationale 1: Addressed
+- Tradeoff 1: Addressed
+- Next step 1: Addressed
+- Priority 2: Addressed
+- Rationale 2: Addressed
+- Tradeoff 2: Addressed
+- Next step 2: Addressed
+- Fact versus inference distinction: Addressed
 
 | Dimension | Rating |
 | --- | --- |
