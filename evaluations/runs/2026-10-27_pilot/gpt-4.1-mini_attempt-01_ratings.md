@@ -862,27 +862,27 @@ Summary:
     SOFR rate: Not provided; only the spread over SOFR (1.75%) is known.
 
 - Task type: Source limits
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-20
+- Required elements: Kestrel's share price, the cloud provider they use, and the exact SOFR rate applicable to June 30, 2026 borrowings. Must include for each item say whether it can be determined or not.
 - Share-price disclosure status: Addressed
 - Cloud-provider disclosure status: Addressed
 - SOFR disclosure status: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 85.7
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Debt and liquidity)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-21 Acquisition integration priorities
 
@@ -907,8 +907,8 @@ Here are two distinct integration workstreams recommended for Bramblecote's inte
 Missing fact needed before committing resources: An important missing fact is the detailed compatibility and overlap of Bramblecote’s technology stack, product features, and customer segments with Kestrel’s current offerings and markets. Understanding these technical and market alignments or gaps is essential to prioritize integration effort and resource allocation effectively.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-21
+- Required elements: Identified the two distinct integration workstreams for Bramblecote, for each give the source-based rationale, one tradeoff, and a practical next step. Also identify one missing fact needed before committing resources to this endeavor.
 - Workstream 1: Addressed
 - Rationale 1: Addressed
 - Tradeoff 1: Addressed
@@ -919,21 +919,21 @@ Missing fact needed before committing resources: An important missing fact is th
 - Next step 2: Addressed
 - Missing decision-critical fact: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
+| E Decision usefulness | 4 | Decision is useful and rational.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (Product news), S3 - q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Integration risk)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-22 Cloud resilience decision
 
@@ -970,29 +970,29 @@ One missing fact that could change the choice:
 Information on the current cloud provider's historical outage frequency, SLA terms, and costs for multi-cloud setups is missing; a detailed understanding of these factors could significantly influence which mitigation strategy is preferable.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-22
+- Required elements: A recommendation to the initial approach to Kestrel's cloud concentration risk, then a comparison to the two mitigation options, identify one tradeoff between them, propose one next step, and then name one missing fact that could change the choice.
 - Initial recommendation: Addressed
 - Two mitigation options: Addressed
 - Comparative tradeoff: Addressed
 - Next step: Addressed
 - Decision-changing information: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
+| E Decision usefulness | 4 | Decision is useful and rational.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Cloud dependency)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-23 Customer concentration response
 
@@ -1025,29 +1025,29 @@ Limit on Interpreting the Estimate as a Future-Loss Forecast:
     The 9% figure reflects historical revenue concentration and does not predict whether the largest customer will be lost in the future; it only indicates potential revenue impact if such loss occurs. Customer retention dynamics and contracts can change, making this estimate an incomplete forecast of future loss.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-23
+- Required elements: An estimation of the 2025 revenue attributable to Kestrel's largest customer. LLM must provide a mitigation, explain one tradeoff, one next step, and state one limit on interpreting the estimate as a future-loss forecast.
 - Revenue estimate and calculation: Addressed
 - Mitigation: Addressed
 - Tradeoff: Addressed
 - Next step: Addressed
 - Forecast limitation: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025), S4 - risk_factors_2026.md (Customer concentration)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-24 Capital allocation choice
 
@@ -1091,8 +1091,8 @@ Summary:
 Given the recent large cash acquisition and $40 million revolver draw, management should prudently review liquidity before executing more share buybacks within the authorized $25 million program. This balances returning capital to shareholders with maintaining financial flexibility.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-24
+- Required elements: Addressed the authorization of stock buybacks, the acquisition payment for Bramblecote,  and revolver balance. Provide a tradeoff, one next step, and any missing inputs.
 - Recommendation: Addressed
 - Buyback authorization context: Addressed
 - Acquisition payment context: Addressed
@@ -1102,21 +1102,21 @@ Given the recent large cash acquisition and $40 million revolver draw, managemen
 - Missing input 1: Addressed
 - Missing input 2: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Capital return), S3 - q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Debt and liquidity)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-25 Full-year growth execution
 
@@ -1165,8 +1165,8 @@ Data request:
     Additonally, request integration status and expected contribution forecast from Bramblecote Telematics to understand its impact on H2 revenue.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-25
+- Required elements: Calculated H2 average quarterly revenue needed to reach the midpoint of FY2026 guidance, then a comparison with Q2 revenue, assessed how this affects exection to the goal without predicting success, then propose a monitoring action and one data request.
 - Midpoint and H1 basis: Addressed
 - Required H2 average calculation: Addressed
 - Q2 comparison: Addressed
@@ -1174,21 +1174,21 @@ Data request:
 - Monitoring action: Addressed
 - Data request: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided
+| B Task coverage | 4 | All requested information is provided
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results), S2 - q2_2026_earnings.md (Second quarter 2026 results, Outlook and guidance)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-26 Profitability interpretation
 
