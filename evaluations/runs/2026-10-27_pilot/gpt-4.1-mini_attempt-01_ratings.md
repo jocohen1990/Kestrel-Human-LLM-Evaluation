@@ -122,7 +122,7 @@ All amounts are for the respective full fiscal years.
 | E Decision usefulness | N/A |
 
 - Weighted score: 85.7
-- Flags: [not reviewed]
+- Flags: none
 - Supporting source locations: S1 - annual_report_2025.md, Financial results for fiscal year 2025 section
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
 - Adjudication status: not requested
@@ -195,7 +195,7 @@ All amounts are in US dollars.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: 87.5
+- Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S2 - q1_2026_earnings.md
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -234,7 +234,7 @@ The reported financial results for Kestrel Freight Analytics in Q2 2026 are as f
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: 87.5
+- Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S3 - q2_2026_earnings.md, Second quarter 2026 results section
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -304,7 +304,7 @@ Bramblecote Telematics' business is providing in-truck sensor data.
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: 87.5
+- Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S3 - q2_2026_earnings.md, Acquisition section
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -340,7 +340,7 @@ Repurchase Amount Disclosed: The sources do not disclose how much was actually r
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: 87.5
+- Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md, Capital return section.
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -378,7 +378,7 @@ The revolving facility details for Kestrel Freight Analytics are as follows:
 | D Reasoning and calculations | N/A |
 | E Decision usefulness | N/A |
 
-- Weighted score: 87.5
+- Weighted score: 85.7
 - Flags: none
 - Supporting source locations: S4 - risk_factors_2026.md, Debt and liquidity
 - Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
@@ -1370,7 +1370,7 @@ The company's disclosures do not specify what portion of revenue is variable or 
 | D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
 | E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: 90.0
+- Weighted score: 95.0
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md (Revenue by segment), S2 - q1_2026_earnings.md (Product news), S3 - Q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Industry conditions)
 - Deduction notes: C = 3: Response does mention the source material but does not cite them directly as instructed.
