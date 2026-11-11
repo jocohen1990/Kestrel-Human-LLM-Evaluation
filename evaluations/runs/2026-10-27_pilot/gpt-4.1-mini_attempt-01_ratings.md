@@ -426,7 +426,7 @@ Summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -476,7 +476,7 @@ Summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -521,7 +521,7 @@ Answer:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -571,7 +571,7 @@ Summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -629,7 +629,7 @@ Summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -677,7 +677,7 @@ Therefore, the reported 18% revenue growth rate is consistent with the growth ca
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -725,7 +725,7 @@ Summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -776,7 +776,7 @@ This calculation is based on the company-issued full-year 2026 revenue guidance 
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -828,7 +828,7 @@ In summary:
 | A Factual accuracy | 4 | All requested information is provided.
 | B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | All requested information is provided.
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | N/A |
 
 - Weighted score: 88.2
@@ -1113,7 +1113,7 @@ Given the recent large cash acquisition and $40 million revolver draw, managemen
 - Weighted score: 90.0
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md (Capital return), S3 - q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Debt and liquidity)
-- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing. Also Authorization section is missing its numbering, while the Acquistion Payment and Revolver balance is numbered, showing an inconsistency.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -1176,8 +1176,8 @@ Data request:
 
 | Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | 4 | All requested information is provided
-| B Task coverage | 4 | All requested information is provided
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
 | D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
 | E Decision usefulness | 4 | Decision is useful and actionable.
@@ -1244,8 +1244,8 @@ Recommendation: Perform a detailed segment and expense analysis to understand th
 In summary, Kestrel Freight Analytics' net margin improved from Q1 to Q2 2026, signaling positive profitability momentum. However, without deeper data on cost structure and acquisition impacts, conclusions on sustainability and long-term profitability drivers cannot be drawn confidently. A follow-up detailed financial analysis focusing on segments and expenses is necessary.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-26
+- Required elements: Calculation of the of the net margin of Q1 and Q2 2026 results, assess the direction of profitable. Must establish what the figures show and what they cannot explain. Also must recommend one follow-up analysis, with a tradeoff and a first step as well.
 - Q1 net-margin calculation: Addressed
 - Q2 net-margin calculation: Addressed
 - Direction: Addressed
@@ -1254,21 +1254,21 @@ In summary, Kestrel Freight Analytics' net margin improved from Q1 to Q2 2026, s
 - Tradeoff: Addressed
 - First step: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 95.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results, Margins, Product news), S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins, Customers, Acquisition)
+- Deduction notes: C = 3: Response does mention the source material but does not cite them directly as instructed.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-27 LaneSight commercial assessment
 
@@ -1300,8 +1300,8 @@ Proposed Evaluation Approach:
 This evaluation method aligns LaneSight’s commercial promise with Kestrel’s business strategy, balancing growth potential against operational risks and focusing on measurable outcomes.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-27
+- Required elements: An accurate evaulation of LaneSight's commercial promise on the Kestrel business, proposing two success measures, an identification of one tradeoff, specify ad first step, and naming one missing input as well.
 - Business connection: Addressed
 - Success measure 1: Addressed
 - Success measure 2: Addressed
@@ -1309,21 +1309,21 @@ This evaluation method aligns LaneSight’s commercial promise with Kestrel’s 
 - First step: Addressed
 - Missing input: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Revenue by segment), S2 - q1_2026_earnings.md (Product news), S3 - q2_2026_earnings.md (Acquisition)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-28 Fuel volatility exposure
 
@@ -1354,29 +1354,29 @@ Missing Fact Limiting Confidence:
 The company's disclosures do not specify what portion of revenue is variable or contracted, nor detail how sensitive customer spending specifically is to fuel price changes. Without granular data on customer spending patterns relative to fuel price shifts, it is difficult to precisely estimate Kestrel’s revenue risk exposure to fuel price volatility.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-28
+- Required elements: LLM must explain one plausible pathway from fuel price volatility to Kestrel's revenue risk, recommend a response, give one tradeoff, one next step and identify one missing fact that limits confidence.
 - Risk pathway: Addressed
 - Recommendation: Addressed
 - Tradeoff: Addressed
 - Next step: Addressed
 - Confidence-limiting information: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Revenue by segment), S2 - q1_2026_earnings.md (Product news), S3 - Q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Industry conditions)
+- Deduction notes: C = 3: Response does mention the source material but does not cite them directly as instructed.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-29 Key personnel risk response
 
@@ -1406,8 +1406,8 @@ Missing fact needed to choose the right mix:
     The document does not specify the company's tolerance for leadership transition risk, or the estimated financial impact of losing key personnel beyond headline risk statements. Specifically, information on the potential financial loss magnitude or business disruption timeframe after losing Dana Whitfield or other leaders is required to optimally balance insurance coverage level versus investment in leadership development.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
-- Required elements:
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-29
+- Required elements: Recommend two distinct responses to key personnel risk. Must explain the rationalie for each, compare one tradeoff between them, identify a first step, and state one missing fact needed to choose the mix.
 - Response 1: Addressed
 - Rationale 1: Addressed
 - Response 2: Addressed
@@ -1416,21 +1416,21 @@ Missing fact needed to choose the right mix:
 - First step: Addressed
 - Missing decision input: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reason
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 95.0
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Key personnel)
+- Deduction notes: C = 3: Response does mention the source material but does not cite them directly as instructed.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-30 Management briefing with priorities
 
@@ -1484,7 +1484,7 @@ Recommended Priorities:
 This management assessment balances disclosed financial performance, derived metrics, and prudent judgments to guide Kestrel Freight Analytics toward sustainable growth, profitability, and risk management.
 
 - Task type: Business analysis
-- Response ID: [unique ID linking to this case in the response record]
+- Response ID: gpt-4.1-mini_attempt-01_KESTREL-30
 - Required elements:
 - Growth signal: Addressed
 - Profitability signal: Addressed
@@ -1499,18 +1499,18 @@ This management assessment balances disclosed financial performance, derived met
 - Next step 2: Addressed
 - Fact versus inference distinction: Addressed
 
-| Dimension | Rating |
+| Dimension | Rating | Reasons
 | --- | --- |
-| A Factual accuracy | [unscored] |
-| B Task coverage | [unscored] |
-| C Evidence and uncertainty | [unscored] |
-| D Reasoning and calculations | [unscored] |
-| E Decision usefulness | [unscored] |
+| A Factual accuracy | 4 | All requested information is provided.
+| B Task coverage | 4 | All requested information is provided.
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
+| E Decision usefulness | 4 | Decision is useful and actionable.
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Deduction notes: [brief reasons, or none after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 90.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025, Customers and employees, Capital return), S2 - q1_2026_earnings.md (First quarter 2026 results, Margins, Product news), S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins, Acquisition, Customers), S4 - risk_factors_2026.md (Debt and liquidity)
+- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Adjudication status: not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
