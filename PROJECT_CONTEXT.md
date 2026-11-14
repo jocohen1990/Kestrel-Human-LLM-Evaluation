@@ -39,3 +39,7 @@ Update this file when requirements, decisions, or status change. Record substant
 ## November 2, 2026 update
 
 evaluations/runs/ratings-template.md is now the reusable human rating record, with all 30 cases, required-element checklists, task-key applicability for dimensions A through E, weighted-score instructions, flags, deduction notes, and separate adjudication fields. Copy it into the response run folder for each attempt and independent rater; keep the master blank.
+
+## November 13 2026 Claude run setup
+
+Created three files in the user-provided `evaluations/runs/2026-11-13_claude-sonnet/` folder with the prefix `claude-sonnet-5-5_attempt-01`: responses Markdown, ratings Markdown, and an Excel score calculator. These use the same 30 cases and rubric as the first pilot. Responses and applicable ratings are blank; task-key N/A entries are preserved. Ratings include a Reason column for full-credit and deduction explanations. The calculator preserves the first pilot layout, validation, frozen headers, and score formulas; nine recalculation scenarios were checked and all temporary test ratings removed. Markdown records and calculator require manual updates and do not sync. No Claude responses have been collected by the assistant.
