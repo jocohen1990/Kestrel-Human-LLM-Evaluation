@@ -123,13 +123,9 @@ Model response verbatim:
 
 Segments and 2025 revenue share (reported in Kestrel Freight Analytics Annual Report 2025):
 
-Segment:
-Route Optimization Software
-Data Services
-
-Share of 2025 total revenue:
-62%
-38%
+Segment                         Share of 2025 total revenue
+Route Optimization Software     62%
+Data Services                   38%
 
 Derived dollar values (my calculation from total 2025 revenue of $412.6 million, as reported in the Annual Report):
 
@@ -149,20 +145,10 @@ Report Q1 2026 revenue, net income, and diluted EPS, with units.
 Model response verbatim:
 
 Q1 2026 results (reported facts, from the Kestrel Freight Analytics Q1 2026 Earnings Release):
-Metric:
-Revenue
-Net income
-Diluted EPS
-
-Q1 2026:
-$108.3 million
-$9.2 million
-$0.31
-
-Units:
-US dollars
-US dollars
-US dollars per share
+Metric              Q1 2026             Units
+Revenue             $108.3 million      US dollars
+Net income          $9.2 million        US dollars
+Diluted EPS         $0.31               US dollars per share
 
 The release also reports that Q1 2026 revenue was up 21% from $89.5 million in Q1 2025.
 
@@ -178,9 +164,19 @@ Report Q2 2026 revenue, net income, diluted EPS, and gross margin.
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Q2 2026 results (reported facts, per the Kestrel Freight Analytics Q2 2026 Earnings Release):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Metric                 Q2 2026
+Revenue                $116.0 million (up 19% from $97.5 million in Q2 2025)
+Net income             $11.4 million
+Diluated EPS           $0.38
+Gross margin           $72.1%
+
+Derived check (not stated in the release): $116.0M / $97.5M − 1 ≈ 19.0%, which matches the reported 19% growth.
+
+Not disclosed: The Q2 release does not give the Q2 2025 gross margin, net income, or EPS, so I can't report year-over-year changes for those. The Q1 2026 release does give gross margin of 71.4% for Q1 2026, but that is a different quarter.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 288, Total response time: 3.3 seconds, Cost: ~$0.0062
 
 ### KESTREL-07 LaneSight launch
 
@@ -190,9 +186,15 @@ Name the product launched in February 2026, describe what it predicts, and state
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Product (reported): LaneSight, launched in February 2026 (Q1 2026 Earnings Release).
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+What it predicts (reported): Freight lane congestion (Q1 2026 Earnings Release).
+
+Maximum prediction horizon (reported): Up to 14 days in advance (Q1 2026 Earnings Release).
+
+The documents give no further detail on how LaneSight works, its pricing, or its revenue contribution.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 148, Total response time: 3.0 seconds, Cost: ~$0.0048
 
 ### KESTREL-08 Acquisition terms
 
@@ -202,9 +204,18 @@ Identify the acquired business, completion date, purchase price and payment form
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Reported facts
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Acquired business: Bramblecote Telematics (Q2 2026 Earnings Release; Risk Factors 2026).
+Completion date: June 12, 2026 (Q2 2026 Earnings Release). The Risk Factors document says only that the acquisition occurred "in June 2026," which is consistent.
+Purchase price and payment form: $64 million in cash (Q2 2026 Earnings Release).
+Acquired company's business: Bramblecote is a provider of in-truck sensor data (Q2 2026 Earnings Release).
+
+Not disclosed
+
+The documents do not say how the cash was funded. For context, the Risk Factors report $40 million drawn on the credit facility as of June 30, 2026, but they do not link that borrowing to the acquisition. The documents also give no details on Bramblecote's revenue, earnings, or customers, and no deal terms beyond the price.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 314, Total response time: 3.3 seconds, Cost: ~$0.0065
 
 ### KESTREL-09 Capital return policy
 
@@ -214,9 +225,14 @@ State Kestrel's dividend policy and the buyback authorization's maximum amount a
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Reported facts (Kestrel Freight Analytics Annual Report 2025):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Dividend policy: Kestrel does not pay a dividend.
+Buyback authorization: In November 2025, the board authorized a share buyback program of up to $25 million. That is the maximum amount, and November 2025 is the authorization month.
+
+Actual repurchases: The sources do not disclose how much, if anything, was repurchased. The Annual Report states only the authorization. The Q1 2026 and Q2 2026 earnings releases and the Risk Factors 2026 document say nothing about repurchase activity. The authorized amount is a ceiling, so it should not be treated as the amount actually bought back.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 236, Total response time: 3.4 seconds, Cost: ~$0.0057
 
 ### KESTREL-10 Borrowing terms
 
@@ -226,9 +242,18 @@ Give the revolving facility size, amount drawn and measurement date, and contrac
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Reported facts (all from the "Kestrel Freight Analytics Risk Factors 2026" document, Debt and liquidity section):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Revolving facility size: $150 million.
+Amount drawn: $40 million.
+Measurement date: June 30, 2026.
+Interest-rate formula: SOFR plus 1.75%.
+
+Derived value (my calculation, not stated in the document): undrawn capacity would be $150M − $40M = $110M. This assumes no letters of credit or other usage reduce availability, and the document doesn't say either way.
+
+Not disclosed in the supplied documents: the facility's maturity, whether SOFR is term or daily, any SOFR floor, covenants, or the all-in rate in dollar terms. The other documents (Annual Report 2025, Q1 and Q2 2026 earnings releases) don't mention the facility.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 293, Total response time: 3.8 seconds, Cost: ~$0.0062
 
 ### KESTREL-11 First half totals
 
@@ -238,9 +263,26 @@ Calculate first-half 2026 revenue and net income by summing Q1 and Q2. Show both
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+First-half 2026 (derived by summing reported quarterly figures)
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Revenue
+
+Q1 2026 revenue: $108.3 million (Q1 2026 Earnings Release)
+Q2 2026 revenue: $116.0 million (Q2 2026 Earnings Release)
+H1 2026 revenue = $108.3M + $116.0M = $224.3 million
+
+Net income
+
+Q1 2026 net income: $9.2 million (Q1 2026 Earnings Release)
+Q2 2026 net income: $11.4 million (Q2 2026 Earnings Release)
+H1 2026 net income = $9.2M + $11.4M = $20.6 million
+
+Notes
+
+The inputs are reported facts. The totals are derived values, not figures reported in any document.
+The documents do not disclose any restatements or adjustments to the quarterly figures. This sum assumes the quarterly figures are comparable and unadjusted.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 323, Total response time: 3.2 seconds, Cost: ~$0.0066
 
 ### KESTREL-12 Sequential revenue growth
 
