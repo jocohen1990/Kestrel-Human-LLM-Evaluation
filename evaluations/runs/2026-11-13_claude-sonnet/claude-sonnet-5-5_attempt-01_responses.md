@@ -67,7 +67,7 @@ CFO: Marcus Oyelaran serves as Chief Financial Officer. (Source: Kestrel Freight
 
 The Risk Factors 2026 document also names Dana Whitfield as CEO and says Kestrel depends on her and other senior leaders. The documents do not describe the specific responsibilities of either role beyond their titles. The Q1 and Q2 2026 earnings releases do not name the CEO or CFO.
 
-Collection notes: Input tokens - 1.6k, output tokens - 210, 2.7 seconds, Cost: ~0.0054
+Collection notes: Input tokens: 1.6k, Output tokens: 210, Total response time: 2.7 seconds, Cost: ~$0.0054
 
 ### KESTREL-02 Company background
 
@@ -77,9 +77,20 @@ Identify Kestrel's headquarters, founding year, and the business problem its pro
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Reported facts (Kestrel Freight Analytics Annual Report 2025):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Headquarters: Omaha, Nebraska.
+Founded: 2017.
+Business problem addressed: The company "sells software and data products that help shipping and logistics companies plan freight routes more efficiently." The problem is inefficient freight route planning for shipping and logistics companies.
+
+Supporting context from other documents (reported):
+
+The Q1 2026 Earnings Release describes LaneSight, a product that predicts freight lane congestion up to 14 days in advance. That supports the route-planning focus, but the release does not tie it explicitly to the stated business problem.
+The Annual Report splits revenue into Route Optimization Software (62%) and Data Services (38%).
+
+The documents do not give a formal "problem statement" beyond the Annual Report's description.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 289, Total response time: 3.6 seconds, Cost: ~$0.0062
 
 ### KESTREL-03 Annual financial results
 
@@ -89,9 +100,18 @@ State fiscal 2025 revenue, fiscal 2024 revenue, and fiscal 2025 net income. Incl
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Reported facts (Kestrel Freight Analytics Annual Report 2025):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Fiscal 2025 revenue: $412.6 million (total revenue, fiscal year 2025)
+Fiscal 2024 revenue: $349.7 million (fiscal year 2024)
+Fiscal 2025 net income: $38.9 million (fiscal year 2025)
+
+Notes:
+
+The report states that the revenue increase was 18%. The figures are consistent with this: ($412.6 − $349.7) / $349.7 ≈ 17.99%.
+The report does not state the exact fiscal year-end date. It does give December 31, 2025 as the employee-count date, but it does not say that this is the fiscal year-end.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 251, Total response time: 3.3 seconds, Cost: ~$0.0058
 
 ### KESTREL-04 Revenue segment mix
 
@@ -101,9 +121,24 @@ Name both revenue segments and give each segment's share of total revenue in 202
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Segments and 2025 revenue share (reported in Kestrel Freight Analytics Annual Report 2025):
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Segment:
+Route Optimization Software
+Data Services
+
+Share of 2025 total revenue:
+62%
+38%
+
+Derived dollar values (my calculation from total 2025 revenue of $412.6 million, as reported in the Annual Report):
+
+Route Optimization Software: 0.62 × $412.6M ≈ $255.8M
+Data Services: 0.38 × $412.6M ≈ $156.8M
+
+The Annual Report gives only the percentages, not the segment dollar amounts, so the dollar figures are estimates and may differ slightly from actual amounts because the percentages are rounded.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 264, Total response time: 3.3 seconds, Cost: ~$0.0058
 
 ### KESTREL-05 First quarter results
 
@@ -113,9 +148,27 @@ Report Q1 2026 revenue, net income, and diluted EPS, with units.
 
 Model response verbatim:
 
-[NOT RUN — replace with the exact response after collection]
+Q1 2026 results (reported facts, from the Kestrel Freight Analytics Q1 2026 Earnings Release):
+Metric:
+Revenue
+Net income
+Diluted EPS
 
-Collection notes: [optional response/log ID, input tokens, output tokens, total response time, failures, retries, or exact follow-up messages; use not recorded when unavailable and keep separate from the response]
+Q1 2026:
+$108.3 million
+$9.2 million
+$0.31
+
+Units:
+US dollars
+US dollars
+US dollars per share
+
+The release also reports that Q1 2026 revenue was up 21% from $89.5 million in Q1 2025.
+
+The release does not state the diluted share count. I haven't derived one, because the rounded figures would only give an approximate result.
+
+Collection notes: Input tokens: 1.7k, Output tokens: 205, Total response time: 3.2 seconds, Cost: ~$0.0054
 
 ### KESTREL-06 Second quarter results
 
