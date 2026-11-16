@@ -878,13 +878,14 @@ Judgments
     Because the cash balance is not disclosed, the debt level cannot be judged as comfortable or tight. The $40M draw is modest relative to the $150M facility.
 
 Recommended priorities
+
 1. Execute the Bramblecote integration and tie it to product growth (e.g., LaneSight).
-Rationale: The acquisition is a $64M bet, and integration risk is an explicitly disclosed risk factor.
-Tradeoff: It consumes management attention, and integration costs could dilute the margin gains.
-Next step: Set integration milestones. Report Bramblecote's revenue contribution and margin impact, and clarify whether guidance includes it.
+    Rationale: The acquisition is a $64M bet, and integration risk is an explicitly disclosed risk factor.
+    Tradeoff: It consumes management attention, and integration costs could dilute the margin gains.
+    Next step: Set integration milestones. Report Bramblecote's revenue contribution and margin impact, and clarify whether guidance includes it.
 2. Set a capital-allocation policy that sequences revolver repayment against the buyback.
-Rationale: The company is carrying floating-rate debt while holding a $25M buyback authorization.
-Tradeoff: Paying down debt or preserving liquidity reduces buyback capacity and flexibility for further acquisitions. Buying back stock does the opposite.
-Next step: Obtain the cash balance, free cash flow, and SOFR-based interest cost. Then model repayment against buyback scenarios under the guidance range.
+    Rationale: The company is carrying floating-rate debt while holding a $25M buyback authorization.
+    Tradeoff: Paying down debt or preserving liquidity reduces buyback capacity and flexibility for further acquisitions. Buying back stock does the opposite.
+    Next step: Obtain the cash balance, free cash flow, and SOFR-based interest cost. Then model repayment against buyback scenarios under the guidance range.
 
 Collection notes: Input tokens: 1.7k, Output tokens: 2.7k, Total Response Time: 19.5 seconds, Cost: ~$0.03
