@@ -11,7 +11,7 @@
 
 ## How to fill this in
 
-Use the rubric anchors and administrator task keys. Each section below is one response rating. Replace [unscored] with an integer from 0 to 4 only after reviewing the response. N/A is prefilled according to the task key; it is excluded from the weighted score. An unrun case stays unscored, rather than receiving zeros. Record technical failures separately until the rerun or exclusion rule is defined.
+Use the rubric anchors and administrator task keys. Each section below is one response rating. Replace [unscored] with an integer from 0 to 4 only after reviewing the response. Dimensions marked "Not applicable under the task key" are excluded from the weighted score; their rating cells are left blank. An unrun case stays unscored, rather than receiving zeros. Record technical failures separately until the rerun or exclusion rule is defined.
 
 Weights: A factual accuracy = 30; B task coverage = 20; C evidence and uncertainty = 20; D reasoning and calculations = 15; E decision usefulness = 15.
 
@@ -42,12 +42,12 @@ Kestrel's CFO is Marcus Oyelaran, who serves as the Chief Financial Officer, res
 - CFO name and role: Addressed
 
 | Dimension | Rating | Reason |
-| --- | --- |
-| A Factual accuracy | 4 | Both names and roles are correct
-| B Task coverage | 4 | Both required elements are addressed
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A | This case requires factual retrieval only.
-| E Decision usefulness | N/A | No recommendation is requested
+| --- | --- | --- |
+| A Factual accuracy | 4 | Both names and roles are correct. |
+| B Task coverage | 4 | Both required elements are addressed. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -75,12 +75,12 @@ Kestrel Freight Analytics is headquartered in Omaha, Nebraska. The company was f
 - Product purpose: Addressed
 
 | Dimension | Rating | Reason |
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -114,12 +114,12 @@ All amounts are for the respective full fiscal years.
 - 2025 net income: Addresssed
 
 | Dimension | Rating | Reason |
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -148,13 +148,13 @@ The two revenue segments for Kestrel Freight Analytics in 2025 are:
 - Route Optimization Software name and share: Addressed
 - Data Services name and share: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -187,13 +187,13 @@ All amounts are in US dollars.
 - Net income: Addressed
 - Diluted EPS: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 |  Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -226,13 +226,13 @@ The reported financial results for Kestrel Freight Analytics in Q2 2026 are as f
 - Diluted EPS: Addressed
 - Gross margin: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4] | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4] | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -259,13 +259,13 @@ The product launched by Kestrel Freight Analytics in February 2026 is called Lan
 - Predicted condition: Addressed
 - Prediction horizon: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | Not applicable under the task key. |
+| E Decision usefulness | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -296,13 +296,13 @@ Bramblecote Telematics' business is providing in-truck sensor data.
 - Price and payment form: Addressed
 - Business description: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | | Not applicable under the task key. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -332,13 +332,13 @@ Repurchase Amount Disclosed: The sources do not disclose how much was actually r
 - Authorization month: Addressed
 - Actual repurchase disclosure status: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | | Not applicable under the task key. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -370,13 +370,13 @@ The revolving facility details for Kestrel Freight Analytics are as follows:
 - Drawn amount and date: Addressed
 - Interest formula: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | | Not applicable under the task key. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -421,13 +421,13 @@ Summary:
 - Revenue calculation and total: Addressed
 - Net income calculation and total: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -471,13 +471,13 @@ Summary:
 - Dollar increase: Addressed
 - Percentage calculation with Q1 base: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -516,13 +516,13 @@ Answer:
 - Percentage-point calculation: Addressed
 - Basis-point conversion: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -566,13 +566,13 @@ Summary:
 - Percent calculation: Addressed
 - Comparison period: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -624,13 +624,13 @@ Summary:
 - Data Services estimate and calculation: Addressed
 - Derived estimate qualification: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -672,13 +672,13 @@ Therefore, the reported 18% revenue growth rate is consistent with the growth ca
 - Calculated growth: Addressed
 - Rounding explanation: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -720,13 +720,13 @@ Summary:
 - Dollar beat: Addressed
 - Percentage beat calculation: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -771,13 +771,13 @@ This calculation is based on the company-issued full-year 2026 revenue guidance 
 - Upper-bound calculation: Addressed
 - Status of derived range: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -823,13 +823,13 @@ In summary:
 - Cash-balance limitation: Addressed
 - Borrowing-availability limitation: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 88.2
 - Flags: none
@@ -868,13 +868,13 @@ Summary:
 - Cloud-provider disclosure status: Addressed
 - SOFR disclosure status: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | N/A |
-| E Decision usefulness | N/A |
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | | Not applicable under the task key. |
+| E Decision usefulness | | Not applicable under the task key. |
 
 - Weighted score: 85.7
 - Flags: none
@@ -919,13 +919,13 @@ Missing fact needed before committing resources: An important missing fact is th
 - Next step 2: Addressed
 - Missing decision-critical fact: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | 4 | Decision is useful and rational.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -978,13 +978,13 @@ Information on the current cloud provider's historical outage frequency, SLA ter
 - Next step: Addressed
 - Decision-changing information: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | 4 | Decision is useful and rational.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -1033,13 +1033,13 @@ Limit on Interpreting the Estimate as a Future-Loss Forecast:
 - Next step: Addressed
 - Forecast limitation: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -1102,13 +1102,13 @@ Given the recent large cash acquisition and $40 million revolver draw, managemen
 - Missing input 1: Addressed
 - Missing input 2: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -1174,13 +1174,13 @@ Data request:
 - Monitoring action: Addressed
 - Data request: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning is sound and calculations are verified as correct. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -1254,13 +1254,13 @@ In summary, Kestrel Freight Analytics' net margin improved from Q1 to Q2 2026, s
 - Tradeoff: Addressed
 - First step: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
-| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed. |
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 95.0
 - Flags: none
@@ -1309,13 +1309,13 @@ This evaluation method aligns LaneSight’s commercial promise with Kestrel’s 
 - First step: Addressed
 - Missing input: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 90.0
 - Flags: none
@@ -1362,13 +1362,13 @@ The company's disclosures do not specify what portion of revenue is variable or 
 - Next step: Addressed
 - Confidence-limiting information: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
-| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed. |
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 95.0
 - Flags: none
@@ -1416,13 +1416,13 @@ Missing fact needed to choose the right mix:
 - First step: Addressed
 - Missing decision input: Addressed
 
-| Dimension | Rating | Reason
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed.
-| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 3 | Response does mention the source material but does not cite them directly as instructed. |
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 95.0
 - Flags: none
@@ -1499,13 +1499,13 @@ This management assessment balances disclosed financial performance, derived met
 - Next step 2: Addressed
 - Fact versus inference distinction: Addressed
 
-| Dimension | Rating | Reasons
-| --- | --- |
-| A Factual accuracy | 4 | All requested information is provided.
-| B Task coverage | 4 | All requested information is provided.
-| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing.
-| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate.
-| E Decision usefulness | 4 | Decision is useful and actionable.
+| Dimension | Rating | Reason |
+| --- | --- | --- |
+| A Factual accuracy | 4 | All requested information is provided. |
+| B Task coverage | 4 | All requested information is provided. |
+| C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
+| D Reasoning and calculations | 4 | Reasoning and calcuations are rational and accurate. |
+| E Decision usefulness | 4 | Decision is useful and actionable. |
 
 - Weighted score: 90.0
 - Flags: none
