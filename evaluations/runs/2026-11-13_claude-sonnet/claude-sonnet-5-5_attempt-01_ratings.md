@@ -253,27 +253,27 @@ Not disclosed: The Q2 release does not give the Q2 2025 gross margin, net income
 
 - Task type: Factual
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-06
-- Required elements:
-- Revenue: [addressed / omitted / not reviewed]
-- Net income: [addressed / omitted / not reviewed]
-- Diluted EPS: [addressed / omitted / not reviewed]
-- Gross margin: [addressed / omitted / not reviewed]
+- Required elements: Report Q2 2026 revenue, net income, diluted EPS, and gross margin.
+- Revenue: Addressed
+- Net income: Addressed
+- Diluted EPS: Addressed
+- Gross margin: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-07 LaneSight launch
 
@@ -293,26 +293,26 @@ The documents give no further detail on how LaneSight works, its pricing, or its
 
 - Task type: Factual
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-07
-- Required elements:
-- Product name: [addressed / omitted / not reviewed]
-- Predicted condition: [addressed / omitted / not reviewed]
-- Prediction horizon: [addressed / omitted / not reviewed]
+- Required elements: Name the product launched in February 2026, describe what it predicts and state the maximum prediction horizon.
+- Product name: Addressed
+- Predicted condition: Addressed
+- Prediction horizon: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md
+- Rating notes: Response got full credit due to giving all requested information and cited sources. Did give extra detail that was not prompted for on how LaneSight works, its pricing, and its revenue contribution.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-08 Acquisition terms
 
@@ -335,27 +335,27 @@ The documents do not say how the cash was funded. For context, the Risk Factors 
 
 - Task type: Factual
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-08
-- Required elements:
-- Target name: [addressed / omitted / not reviewed]
-- Completion date: [addressed / omitted / not reviewed]
-- Price and payment form: [addressed / omitted / not reviewed]
-- Business description: [addressed / omitted / not reviewed]
+- Required elements: Identify the acquired business by Kestrel, completion date, purchase price and payment form, and the acquired company's business.
+- Target name: Addressed
+- Completion date: Addressed
+- Price and payment form: Addressed
+- Business description: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S3 - q2_2026_earnings.md (Acquisition), S4 - risk_factors_2026.md (Integration risk)
+- Rating notes: Response got full credit due to giving all requested information and cited sources. Response also included extra details that user did not prompt for.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-09 Capital return policy
 
@@ -374,27 +374,27 @@ Actual repurchases: The sources do not disclose how much, if anything, was repur
 
 - Task type: Factual
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-09
-- Required elements:
-- Dividend policy: [addressed / omitted / not reviewed]
-- Authorization amount: [addressed / omitted / not reviewed]
-- Authorization month: [addressed / omitted / not reviewed]
-- Actual repurchase disclosure status: [addressed / omitted / not reviewed]
+- Required elements: State Kestrel's divident policy, buyback authorization's maximum amount, authorization month. Then also state whether the sources disclose how much was actually repurchased.
+- Dividend policy: Addressed
+- Authorization amount: Addressed
+- Authorization month: Addressed
+- Actual repurchase disclosure status: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-10 Borrowing terms
 
@@ -417,26 +417,26 @@ Not disclosed in the supplied documents: the facility's maturity, whether SOFR i
 
 - Task type: Factual
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-10
-- Required elements:
-- Facility size: [addressed / omitted / not reviewed]
-- Drawn amount and date: [addressed / omitted / not reviewed]
-- Interest formula: [addressed / omitted / not reviewed]
+- Required elements: Provide the revolving facility size, amount drawn, measurement date, and contractualy interest-rate formula.
+- Facility size: Addressed
+- Drawn amount and date: Addressed
+- Interest formula: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Debt and liquidity)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested.
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-11 First half totals
 
