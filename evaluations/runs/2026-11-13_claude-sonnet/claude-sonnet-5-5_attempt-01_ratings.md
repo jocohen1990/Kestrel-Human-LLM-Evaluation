@@ -467,25 +467,25 @@ The documents do not disclose any restatements or adjustments to the quarterly f
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-11
-- Required elements:
-- Revenue calculation and total: [addressed / omitted / not reviewed]
-- Net income calculation and total: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the first-half 2026 revenue and net income, with information that only comes from Q1 and Q2.
+- Revenue calculation and total: Addressed
+- Net income calculation and total: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-12 Sequential revenue growth
 
@@ -509,25 +509,25 @@ Note: The 21% and 19% figures in the releases are year-over-year growth rates, n
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-12
-- Required elements:
-- Dollar increase: [addressed / omitted / not reviewed]
-- Percentage calculation with Q1 base: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the dollar and percentage increase in revenue from Q1 to Q2 2026 and show the base used for the percentage.
+- Dollar increase: Addressed
+- Percentage calculation with Q1 base: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-13 Gross margin movement
 
@@ -551,25 +551,25 @@ This is a sequential (quarter-over-quarter) change. Neither release says what dr
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-13
-- Required elements:
-- Percentage-point calculation: [addressed / omitted / not reviewed]
-- Basis-point conversion: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the gross margin improvement from Q1 to Q2 2026 in percentage points and basis points, then show the subtraction.
+- Percentage-point calculation: Addressed
+- Basis-point conversion: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - q1_2026_earnings.md (Margins), S3 - q2_2026_earnings.md (Margins)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-14 Enterprise customer growth
 
@@ -599,26 +599,26 @@ The Q1 2026 Earnings Release does not report a customer count, so no end-of-Q1 b
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-14
-- Required elements:
-- Customer increase: [addressed / omitted / not reviewed]
-- Percent calculation: [addressed / omitted / not reviewed]
-- Comparison period: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the increase in enterprise customers from the end of 2025 to the end of Q2 2026 in customers and percent. Also an identification of the comparison period.
+- Customer increase: Addressed
+- Percent calculation: Addressed
+- Comparison period: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Customers and employees), S3 - q2_2026_earnings.md (Customers)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-15 Estimated segment revenue
 
@@ -648,26 +648,26 @@ The other documents (Q1 and Q2 2026 releases, Risk Factors 2026) do not provide 
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-15
-- Required elements:
-- Software estimate and calculation: [addressed / omitted / not reviewed]
-- Data Services estimate and calculation: [addressed / omitted / not reviewed]
-- Derived estimate qualification: [addressed / omitted / not reviewed]
+- Required elements: Estimation of the 2025 revenue for each segment using the reported revenue and segment shares. Show the calculations and identify the estimates as derived.
+- Software estimate and calculation: Addressed
+- Data Services estimate and calculation: Addressed
+- Derived estimate qualification: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025, Revenue by segment)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-16 Reported versus calculated growth
 
@@ -691,26 +691,26 @@ Note: The report does not say whether its figures were rounded before the calcul
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-16
-- Required elements:
-- Reported rate: [addressed / omitted / not reviewed]
-- Calculated growth: [addressed / omitted / not reviewed]
-- Rounding explanation: [addressed / omitted / not reviewed]
+- Required elements: State the reported FY2025 revenue growth rate, calculate growth from the displayed FY2024 and FY2025, and explain whether the results are consistent after rounding.
+- Reported rate: Addressed
+- Calculated growth: Addressed
+- Rounding explanation: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-17 Quarterly outlook comparison
 
@@ -735,27 +735,27 @@ The documents do not say whether the $116.0 million includes any contribution fr
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-17
-- Required elements:
-- Prior outlook range: [addressed / omitted / not reviewed]
-- Actual and direction versus upper bound: [addressed / omitted / not reviewed]
-- Dollar beat: [addressed / omitted / not reviewed]
-- Percentage beat calculation: [addressed / omitted / not reviewed]
+- Required elements: Stating the  Q2 revenue outlook issued in the Q1 release, compare actual Q2 revenue with its upper bound, and calculate the dollar and percentage beat against that upper bound.
+- Prior outlook range: Addressed
+- Actual and direction versus upper bound: Addressed
+- Dollar beat: Addressed
+- Percentage beat calculation: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (Outlook), S3 - q2_2026_earnings.md (Second quarter 2026 results)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-18 Revenue needed in the second half
 
@@ -788,27 +788,27 @@ The documents don't say whether the full-year guidance includes a contribution f
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-18
-- Required elements:
-- H1 input: [addressed / omitted / not reviewed]
-- Lower-bound calculation: [addressed / omitted / not reviewed]
-- Upper-bound calculation: [addressed / omitted / not reviewed]
-- Status of derived range: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the of H2 2026 revenue range needed the full-year revenue guidance range, using reported H1 revenue. Then stating the result is company-issued H2 guidance.
+- H1 input: Addressed
+- Lower-bound calculation: Addressed
+- Upper-bound calculation: Addressed
+- Status of derived range: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results, Outlook and guidance)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-19 Revolver capacity and limits
 
@@ -850,26 +850,26 @@ Recommendation: to assess liquidity, obtain the balance sheet and the credit agr
 
 - Task type: Calculation
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-19
-- Required elements:
-- Undrawn-capacity calculation: [addressed / omitted / not reviewed]
-- Cash-balance limitation: [addressed / omitted / not reviewed]
-- Borrowing-availability limitation: [addressed / omitted / not reviewed]
+- Required elements: Calculation the nominal undrawn revolver capacity at June 30, 2026, then see if it can be establish and explain Kestrel's cash balance or unrestricted borrowing availability.
+- Undrawn-capacity calculation: Addressed
+- Cash-balance limitation: Addressed
+- Borrowing-availability limitation: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | [brief evidence-based reason, including for full credit] |
+| B Task coverage | 4 | [brief evidence-based reason, including for full credit] |
+| C Evidence and uncertainty | 4 | [brief evidence-based reason, including for full credit] |
+| D Reasoning and calculations | 4 | [brief evidence-based reason, including for full credit] |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S4 - risk_factors_2026.md (Debt and liquidity)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-20 Information that is not disclosed
 
