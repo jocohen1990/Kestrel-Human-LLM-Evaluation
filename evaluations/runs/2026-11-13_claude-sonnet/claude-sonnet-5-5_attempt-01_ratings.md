@@ -857,10 +857,10 @@ Recommendation: to assess liquidity, obtain the balance sheet and the credit agr
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | 4 | [brief evidence-based reason, including for full credit] |
-| B Task coverage | 4 | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | 4 | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | 4 | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
 - Weighted score: 100.0
@@ -894,26 +894,26 @@ for June 30,                                    1.75%," and that $40 million was
 
 - Task type: Source limits
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-20
-- Required elements:
-- Share-price disclosure status: [addressed / omitted / not reviewed]
-- Cloud-provider disclosure status: [addressed / omitted / not reviewed]
-- SOFR disclosure status: [addressed / omitted / not reviewed]
+- Required elements: Share price disclosure, name the cloud-provider and give the SOFR rate applicable to June 30, 2026 borrowings.
+- Share-price disclosure status: Addressed
+- Cloud-provider disclosure status: Addressed
+- SOFR disclosure status: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
 | D Reasoning and calculations | N/A | Not applicable under the task key. |
 | E Decision usefulness | N/A | Not applicable under the task key. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Capital return) S2 - q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results), S4 - risk_factors_2026.md (Cloud dependency, Debt and liquidity)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-21 Acquisition integration priorities
 
@@ -941,32 +941,32 @@ Funding context (derived): The revolver has $150M − $40M drawn = $110M undrawn
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-21
-- Required elements:
-- Workstream 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Tradeoff 1: [addressed / omitted / not reviewed]
-- Next step 1: [addressed / omitted / not reviewed]
-- Workstream 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Tradeoff 2: [addressed / omitted / not reviewed]
-- Next step 2: [addressed / omitted / not reviewed]
-- Missing decision-critical fact: [addressed / omitted / not reviewed]
+- Required elements: A recommendation for two distinct integration workstreams for Bramblecote. For each, LLM must give a source-based rationale, one tradeoff, and a practical next step. Lastly, identify one missing fact needed before committing resources.
+- Workstream 1: Addressed
+- Rationale 1: Addressed
+- Tradeoff 1: Addressed
+- Next step 1: Addressed
+- Workstream 2: Addressed
+- Rationale 2: Addressed
+- Tradeoff 2: Addressed
+- Next step 2: Addressed
+- Missing decision-critical fact: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Revenue by segment), S2 - q1_2026_earnings.md (Product news), S3- q2_2026_earnings.md (Acquisition, Customers), S4 - risk_factors_md (Customer concentration, Cloud dependency, Industry conditions, Integration risk)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-22 Cloud resilience decision
 
@@ -1016,28 +1016,28 @@ Kestrel's customer uptime commitments (SLAs) and penalty terms are not disclosed
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-22
-- Required elements:
-- Initial recommendation: [addressed / omitted / not reviewed]
-- Two mitigation options: [addressed / omitted / not reviewed]
-- Comparative tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Decision-changing information: [addressed / omitted / not reviewed]
+- Required elements: A recommendation for mitigating the risk of having a single cloud provider on the business. Compare 2 options, a tradeoff between, them, propose a next step, and include a missing fact that could affect the choice.
+- Initial recommendation: Addressed
+- Two mitigation options: Addressed
+- Comparative tradeoff: Addressed
+- Next step: Addressed
+- Decision-changing information: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S3 - q2_2026_earnings.md (Second quarter 2026 results, Acquisition), S4 - risk_factors.md (Cloud dependency, Debt and liquidity)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-23 Customer concentration response
 
@@ -1062,28 +1062,28 @@ Limit on using this as a future-loss forecast: $37.1M is a 2025 historical figur
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-23
-- Required elements:
-- Revenue estimate and calculation: [addressed / omitted / not reviewed]
-- Mitigation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Forecast limitation: [addressed / omitted / not reviewed]
+- Required elements: Estimation of the 2025 revenue attributable to the largest customer. Must recommend a mitigation, explain a tradeoff, one next step, state one limit on interpreting the estimate as a future-loss forecast.
+- Revenue estimate and calculation: Addressed
+- Mitigation: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Forecast limitation: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | [brief evidence-based reason, including for full credit] |
+| B Task coverage | 4 | [brief evidence-based reason, including for full credit] |
+| C Evidence and uncertainty | 4 | [brief evidence-based reason, including for full credit] |
+| D Reasoning and calculations | 4 | [brief evidence-based reason, including for full credit] |
+| E Decision usefulness | 4 | [brief evidence-based reason, including for full credit] |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025), S2 - q1_2026_earnings.md (Product news), S3 - q2_2026_earnings.md (Customers)
 - Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-24 Capital allocation choice
 
