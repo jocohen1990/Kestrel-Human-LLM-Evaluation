@@ -1071,16 +1071,16 @@ Limit on using this as a future-loss forecast: $37.1M is a 2025 historical figur
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | 4 | [brief evidence-based reason, including for full credit] |
-| B Task coverage | 4 | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | 4 | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | 4 | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | 4 | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
 - Weighted score: 100.0
 - Flags: none
 - Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025), S2 - q1_2026_earnings.md (Product news), S3 - q2_2026_earnings.md (Customers)
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
 - Adjudication status: Not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
@@ -1120,31 +1120,31 @@ Two missing inputs
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-24
-- Required elements:
-- Recommendation: [addressed / omitted / not reviewed]
-- Buyback authorization context: [addressed / omitted / not reviewed]
-- Acquisition payment context: [addressed / omitted / not reviewed]
-- Revolver context: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Missing input 1: [addressed / omitted / not reviewed]
-- Missing input 2: [addressed / omitted / not reviewed]
+- Required elements: Give a recommendation for whether management should execute additional buybacks immediately or first review liquidity. Then address the authorization, acquisition payment, and revolver balance, finally give one tradeoff, one next step, and two missing inputs.
+- Recommendation: Addressed
+- Buyback authorization context: Addressed
+- Acquisition payment context: Addressed
+- Revolver context: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Missing input 1: Addressed
+- Missing input 2: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 3 | Followed directive to provide source for information for most of its answer, except for the net income in Q1 and Q2, and the diluted EPS amount. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 95.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results, Acquisition), S4 - risk_factors_2026.md (Debt and liquidity, Integration risk)
+- Rating notes: Followed directive to provide source for information for most of its answer, except for the net income in Q1 and Q2, and the diluted EPS amount.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-25 Full-year growth execution
 
@@ -1196,29 +1196,29 @@ Request Bramblecote's revenue contribution in Q2 2026 and the amount included in
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-25
-- Required elements:
-- Midpoint and H1 basis: [addressed / omitted / not reviewed]
-- Required H2 average calculation: [addressed / omitted / not reviewed]
-- Q2 comparison: [addressed / omitted / not reviewed]
-- Qualified execution assessment: [addressed / omitted / not reviewed]
-- Monitoring action: [addressed / omitted / not reviewed]
-- Data request: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the H2 average quarterly revenue needed to reach the midpoint of FY2026 guidance. Compare it with the Q2 revenue, assess what this implies for execution without predicting success, propose a monitoring action and one data request.
+- Midpoint and H1 basis: Addressed
+- Required H2 average calculation:  Addressed
+- Q2 comparison:  Addressed
+- Qualified execution assessment:  Addressed
+- Monitoring action:  Addressed
+- Data request:  Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025), S2 - q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-26 Profitability interpretation
 
@@ -1266,30 +1266,30 @@ First step: Obtain the full Q1 and Q2 2026 income statements (for example, the q
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-26
-- Required elements:
-- Q1 net-margin calculation: [addressed / omitted / not reviewed]
-- Q2 net-margin calculation: [addressed / omitted / not reviewed]
-- Direction: [addressed / omitted / not reviewed]
-- Causal limitation: [addressed / omitted / not reviewed]
-- Follow-up recommendation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
+- Required elements: Calculation of the net margin for Q1 and Q2 2026 and assess the direction of profitability. Distinguish what the figures show from what they cannot explain, then recommend one follow-up analysis, with its tradeoff and the first.
+- Q1 net-margin calculation: Addressed
+- Q2 net-margin calculation: Addressed
+- Direction: Addressed
+- Causal limitation: Addressed
+- Follow-up recommendation: Addressed
+- Tradeoff: Addressed
+- First step: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S2 - q1_2026_earnings.md (First quarter 2026 results, Margins), S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins, Acquisition), S4 - risk_factors_2026.md (Debt and liquidity)
+- Rating notes: Response got full credit due to giving all requested information and cited sources. Response could've been more clear on what the "causal limitiation" section of the answer is.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-27 LaneSight commercial assessment
 
@@ -1318,29 +1318,29 @@ Missing input. LaneSight revenue and paying-customer count are not disclosed in 
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-27
-- Required elements:
-- Business connection: [addressed / omitted / not reviewed]
-- Success measure 1: [addressed / omitted / not reviewed]
-- Success measure 2: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
-- Missing input: [addressed / omitted / not reviewed]
+- Required elements: Propose a way to evaluate LaneSight's commercial promise, connect it to Kestrel's business, propose two success measures, identify one tradeoff, specify a first step, and name one missing input.
+- Business connection: Addressed
+- Success measure 1: Addressed
+- Success measure 2: Addressed
+- Tradeoff: Addressed
+- First step: Addressed
+- Missing input: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Revenue by segment, Customers and employees), S2 - q1_2026_earnings.md (First quarter 2026 results, Product news, Margins), S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins, Customers, Outlook and guidance), S4 - risk_factors_2026.md (Industry conditions)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-28 Fuel volatility exposure
 
