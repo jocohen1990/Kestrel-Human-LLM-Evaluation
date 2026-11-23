@@ -1378,28 +1378,28 @@ The documents do not disclose what share of revenue comes from fuel-sensitive cu
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-28
-- Required elements:
-- Risk pathway: [addressed / omitted / not reviewed]
-- Recommendation: [addressed / omitted / not reviewed]
-- Tradeoff: [addressed / omitted / not reviewed]
-- Next step: [addressed / omitted / not reviewed]
-- Confidence-limiting information: [addressed / omitted / not reviewed]
+- Required elements: Explain one plausible pathway from fuel price volatility to Kestrel's revenue risk, recommend a response, make sure to give one tradeoff and one next step, and identify one missing fact that limits confidence.
+- Risk pathway: Addressed
+- Recommendation: Addressed
+- Tradeoff: Addressed
+- Next step: Addressed
+- Confidence-limiting information: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 3 | Followed directive to provide source for information for most of its answer, except for the guidance, revenue growth from Q1 to Q2, and largest customer percentage. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 95.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025, Revenue by segment), S2 - q1_2026_earnings.md (First quarter 2026 results, Margins, Product news), S3 - q2_2026_earnings.md (Second quarter 2026 results, Margins, Customers, Outlook and guidance), S4 -  risk_factors_2026.md (Customer concentration, Industry conditions)
+- Rating notes: Followed directive to provide source for information for most of its answer, except for the guidance, revenue growth from Q1 to Q2, and largest customer percentage.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-29 Key personnel risk response
 
@@ -1429,30 +1429,30 @@ The existing succession and retention arrangements for the CEO and other senior 
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-29
-- Required elements:
-- Response 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Response 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Comparative tradeoff: [addressed / omitted / not reviewed]
-- First step: [addressed / omitted / not reviewed]
-- Missing decision input: [addressed / omitted / not reviewed]
+- Required elements: Must recommend two distinct responses to key personnel risk. Explain the rationale for each, compare one tradeoff between them, identify a first step, and state one missing fact needed to choose the mix.
+- Response 1: Addressed
+- Rationale 1: Addressed
+- Response 2: Addressed
+- Rationale 2: Addressed
+- Comparative tradeoff: Addressed
+- First step: Addressed
+- Missing decision input: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Leadership, Customers and employees), q2_2026_earnings.md (Second quarter 2026 results, Acquisition), risk_factors_2026.md (Debt and liquidity, Integration risk, Key personnel)
+- Rating notes: Response got full credit due to giving all requested information and cited sources. One note is that the spacing for the Tradeoff could be better, this would increase readability.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
 
 ### KESTREL-30 Management briefing with priorities
 
@@ -1502,32 +1502,32 @@ Recommended priorities
 
 - Task type: Business analysis
 - Response ID: claude-sonnet-5-5_attempt-01_KESTREL-30
-- Required elements:
-- Growth signal: [addressed / omitted / not reviewed]
-- Profitability signal: [addressed / omitted / not reviewed]
-- Financial constraint or uncertainty: [addressed / omitted / not reviewed]
-- Priority 1: [addressed / omitted / not reviewed]
-- Rationale 1: [addressed / omitted / not reviewed]
-- Tradeoff 1: [addressed / omitted / not reviewed]
-- Next step 1: [addressed / omitted / not reviewed]
-- Priority 2: [addressed / omitted / not reviewed]
-- Rationale 2: [addressed / omitted / not reviewed]
-- Tradeoff 2: [addressed / omitted / not reviewed]
-- Next step 2: [addressed / omitted / not reviewed]
-- Fact versus inference distinction: [addressed / omitted / not reviewed]
+- Required elements: Write a brief management assessment with one growth signal, one profitability signal, and one financial constraint or uncertainty. Recommend two priorities, then for each give a rationale, tradeoff, and next step. Separate disclosed facts, derived values, and judgments.
+- Growth signal: Addressed
+- Profitability signal: Addressed
+- Financial constraint or uncertainty: Addressed
+- Priority 1: Addressed
+- Rationale 1: Addressed
+- Tradeoff 1: Addressed
+- Next step 1: Addressed
+- Priority 2: Addressed
+- Rationale 2: Addressed
+- Tradeoff 2: Addressed
+- Next step 2: Addressed
+- Fact versus inference distinction: Addressed
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | [unscored] | [brief evidence-based reason, including for full credit] |
-| B Task coverage | [unscored] | [brief evidence-based reason, including for full credit] |
-| C Evidence and uncertainty | [unscored] | [brief evidence-based reason, including for full credit] |
-| D Reasoning and calculations | [unscored] | [brief evidence-based reason, including for full credit] |
-| E Decision usefulness | [unscored] | [brief evidence-based reason, including for full credit] |
+| A Factual accuracy | 4 | All provided information is accurate. |
+| B Task coverage | 4 | Covered everything that was in task. |
+| C Evidence and uncertainty | 4 | Cited source documents as requested, no uncertainty. |
+| D Reasoning and calculations | 4 | Verified reasoning and calculations as correct. |
+| E Decision usefulness | 4 | Decision is useful and rational. |
 
-- Weighted score: [unscored]
-- Flags: [not reviewed]
-- Supporting source locations: [document ID and section]
-- Rating notes: [explain deductions or full credit with evidence; complete after review]
-- Adjudication status: [not requested / pending / complete]
-- Final adjudicated ratings and score: [leave blank unless adjudicated; preserve independent scores above]
-- Adjudicator, date, and rationale: [leave blank unless adjudicated]
+- Weighted score: 100.0
+- Flags: none
+- Supporting source locations: S1 - annual_report_2025.md (Financial results for fiscal year 2025, Customers and employees, Capital return), q1_2026_earnings.md (First quarter 2026 results), S3 - q2_2026_earnings.md (Second quarter 2026 results, Acquisition, Customers, Outlook and guidance), risk_factors_2026.md (Debt and liquidity, Integration risk)
+- Rating notes: Response got full credit due to giving all requested information and cited sources.
+- Adjudication status: Not requested
+- Final adjudicated ratings and score:
+- Adjudicator, date, and rationale:
