@@ -43,16 +43,16 @@ Kestrel's CFO is Marcus Oyelaran, who serves as the Chief Financial Officer, res
 
 | Dimension | Rating | Reason |
 | --- | --- | --- |
-| A Factual accuracy | 4 | Both names and roles are correct. |
+| A Factual accuracy | 3 | Both names and roles are correct but the model added details about the two leaders' roles that do not exist in the documents. |
 | B Task coverage | 4 | Both required elements are addressed. |
 | C Evidence and uncertainty | 2 | Correct, source-supported answer, but required citation by the shared instructions is missing. |
 | D Reasoning and calculations | Not applicable under the task key. |
 | E Decision usefulness | Not applicable under the task key. |
 
-- Weighted score: 85.7
-- Flags: none
+- Weighted score: 75.0
+- Flags: Fabrication
 - Supporting source locations: S1 - annual_report_2025.md, Leadership section
-- Deduction notes: C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing.
+- Deduction notes: A = 3, C = 2: Correct, source-supported answer, but required citation by the shared instructions is missing and model added details about the leaders' roles that does not exist in documents.
 - Adjudication status: not requested
 - Final adjudicated ratings and score:
 - Adjudicator, date, and rationale:
